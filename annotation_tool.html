@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IndoHotelABSA — Alat Anotasi / Verifikasi</title>
+<style>
+  :root { --navy:#143a5c; --pos:#1b5e20; --neg:#b02a1f; --neu:#8a6d00; }
+  * { box-sizing: border-box; }
+  body { font-family: system-ui, Segoe UI, Arial, sans-serif; margin:0; background:#f4f6f8; color:#1a1a1a; }
+  header { background:var(--navy); color:#fff; padding:12px 20px; display:flex; gap:16px; align-items:center; flex-wrap:wrap; position:sticky; top:0; z-index:10; }
+  header h1 { font-size:16px; margin:0; }
+  header .sp { flex:1; }
+  button { cursor:pointer; border:none; border-radius:6px; padding:8px 14px; font-size:14px; }
+  .btn { background:#2d6cb4; color:#fff; }
+  .btn.ghost { background:#e4e9ef; color:#143a5c; }
+  .btn:disabled { opacity:.4; cursor:default; }
+  #wrap { max-width:820px; margin:20px auto; padding:0 16px; }
+  .card { background:#fff; border-radius:10px; box-shadow:0 1px 4px rgba(0,0,0,.08); padding:20px; }
+  .meta { font-size:13px; color:#555; margin-bottom:8px; }
+  .meta b { color:#143a5c; }
+  .review { font-size:16px; line-height:1.6; background:#fbf7ee; border-left:4px solid #d8b24a; padding:14px 16px; border-radius:6px; margin-bottom:18px; white-space:pre-wrap; }
+  table { width:100%; border-collapse:collapse; }
+  th,td { padding:7px 6px; text-align:left; }
+  th { font-size:12px; color:#555; border-bottom:2px solid #eee; }
+  .aspect { font-weight:600; }
+  .opt { display:inline-flex; gap:4px; align-items:center; }
+  .pills { display:flex; gap:6px; flex-wrap:wrap; }
+  .pill { padding:5px 10px; border-radius:16px; border:2px solid #ccc; background:#fff; font-size:13px; user-select:none; }
+  .pill.sel-NA  { border-color:#999; background:#eee; color:#555; }
+  .pill.sel-POSITIF { border-color:var(--pos); background:#e6f4ea; color:var(--pos); font-weight:700; }
+  .pill.sel-NEGATIF { border-color:var(--neg); background:#fbeae8; color:var(--neg); font-weight:700; }
+  .pill.sel-NETRAL  { border-color:var(--neu); background:#fdf6e0; color:var(--neu); font-weight:700; }
+  .nav { display:flex; gap:10px; align-items:center; margin-top:18px; }
+  .prog { font-size:13px; color:#444; }
+  .badge { font-size:12px; padding:3px 8px; border-radius:10px; background:#eee; }
+  .badge.llm { background:#e7edff; color:#274690; }
+  .badge.ok { background:#e6f4ea; color:var(--pos); }
+  .hint { font-size:12px; color:#777; margin-top:6px; }
+  #drop { border:2px dashed #b9c4d0; border-radius:10px; padding:40px; text-align:center; color:#567; background:#fff; }
+</style>
+</head>
+<body>
+<header>
+  <h1>IndoHotelABSA — Anotasi / Verifikasi</h1>
+  <span class="badge" id="fileBadge">belum ada file</span>
+  <span class="sp"></span>
+  <span class="prog" id="prog"></span>
+  <button class="btn ghost" id="exportBtn" disabled>💾 Export JSONL</button>
+</header>
+
+<div id="wrap">
+  <div id="drop">
+    <p><b>Muat file anotasi</b> (annotation_sample.jsonl atau annotation_prefilled.jsonl)</p>
+    <p><button class="btn" id="loadServer">⚡ Muat annotation_prefilled.jsonl dari server</button></p>
+    <p class="hint">atau pilih file manual:</p>
+    <input type="file" id="file" accept=".jsonl,.json,.txt">
+    <p class="hint">Progress disimpan otomatis di browser (localStorage). Klik "Export JSONL" untuk unduh hasil.</p>
+  </div>
+
+  <div class="card" id="card" style="display:none;">
+    <div class="meta">
+      <b>#<span id="idx"></span></b> / <span id="total"></span> &nbsp;|&nbsp;
+      Hotel: <span id="hotel"></span> &nbsp;|&nbsp; Kota: <span id="city"></span> &nbsp;|&nbsp;
+      Rating: <span id="rating"></span>
+      <span class="badge llm" id="llmBadge" style="display:none;">LLM pre-filled</span>
+      <span class="badge ok" id="verBadge" style="display:none;">✓ verified</span>
+    </div>
+    <div class="review" id="review"></div>
+
+    <table>
+      <thead><tr><th style="width:38%">Aspek</th><th>Sentimen</th></tr></thead>
+      <tbody id="aspects"></tbody>
+    </table>
+
+    <div class="nav">
+      <button class="btn ghost" id="prev">← Sebelumnya</button>
+      <button class="btn" id="next">Simpan &amp; Lanjut →</button>
+      <span class="sp" style="flex:1"></span>
+      <input type="number" id="jump" min="1" style="width:70px; padding:6px;">
+      <button class="btn ghost" id="jumpBtn">Lompat</button>
+    </div>
+    <div class="hint">Pintasan: <b>N</b>=tidak disebut, <b>P</b>=positif, <b>G</b>=negatif, <b>E</b>=netral (untuk aspek terpilih). Panah ←/→ navigasi.</div>
+  </div>
+</div>
+
+<script>
+const ASPECTS = ["Lokasi","Kebersihan","Pelayanan","Kamar & Fasilitas","Harga","Makanan & Minuman","Fasilitas Pendukung"];
+const OPTS = ["NA","POSITIF","NEGATIF","NETRAL"];
+const LABELS = {NA:"tidak disebut", POSITIF:"positif", NEGATIF:"negatif", NETRAL:"netral"};
+let data = [], cur = 0, fileName = "annotation";
+const LS_KEY = () => "absa_" + fileName;
+
+const $ = id => document.getElementById(id);
+
+function loadText(text, name){
+  fileName = name.replace(/\.[^.]+$/,"");
+  data = text.split(/\r?\n/).filter(x=>x.trim()).map(l=>{
+    try { return JSON.parse(l); } catch(_) { return null; }
+  }).filter(o => o && o.review_id!==undefined && o.text!==undefined);
+  // muat progress tersimpan
+  const saved = localStorage.getItem(LS_KEY());
+  if(saved){ try{ const s=JSON.parse(saved); data.forEach(r=>{ if(s[r.review_id]) { r.labels=s[r.review_id].labels; r.verified=s[r.review_id].verified; } }); }catch(_){} }
+  cur = data.findIndex(r=>!r.verified); if(cur<0) cur=0;
+  $("fileBadge").textContent = name + " ("+data.length+")";
+  $("drop").style.display="none"; $("card").style.display="block"; $("exportBtn").disabled=false;
+  render();
+}
+
+document.getElementById("file").addEventListener("change", e => {
+  const f = e.target.files[0]; if(!f) return;
+  const rd = new FileReader();
+  rd.onload = () => loadText(rd.result, f.name);
+  rd.readAsText(f);
+});
+
+document.getElementById("loadServer").addEventListener("click", async () => {
+  try {
+    const resp = await fetch("annotation_prefilled.jsonl");
+    if(!resp.ok) throw new Error("HTTP "+resp.status);
+    loadText(await resp.text(), "annotation_prefilled.jsonl");
+  } catch(err) {
+    alert("Gagal muat dari server: "+err.message+
+          "\nPastikan tool dibuka via server lokal (bukan file://).");
+  }
+});
+
+function curLabels(){ // map aspek->polaritas dari data[cur].labels
+  const m={}; (data[cur].labels||[]).forEach(l=>m[l.aspect]=l.polarity); return m;
+}
+function setLabel(aspect, pol){
+  let lbls = (data[cur].labels||[]).filter(l=>l.aspect!==aspect);
+  if(pol!=="NA") lbls.push({aspect, polarity:pol});
+  data[cur].labels = lbls; renderAspects();
+}
+function render(){
+  const r=data[cur];
+  $("idx").textContent=cur+1; $("total").textContent=data.length; $("total2")&&0;
+  $("hotel").textContent=r.hotel||"-"; $("city").textContent=r.city||"-"; $("rating").textContent=r.rating??"-";
+  $("review").textContent=r.text;
+  $("llmBadge").style.display = r.llm_prefilled ? "inline-block":"none";
+  $("verBadge").style.display = r.verified ? "inline-block":"none";
+  $("prog").textContent = "Terverifikasi: "+data.filter(x=>x.verified).length+"/"+data.length;
+  $("prev").disabled = cur===0;
+  renderAspects();
+}
+function renderAspects(){
+  const m=curLabels(); const tb=$("aspects"); tb.innerHTML="";
+  ASPECTS.forEach(a=>{
+    const tr=document.createElement("tr");
+    const td1=document.createElement("td"); td1.className="aspect"; td1.textContent=a; tr.appendChild(td1);
+    const td2=document.createElement("td"); const pills=document.createElement("div"); pills.className="pills";
+    OPTS.forEach(o=>{
+      const cur_=m[a]||"NA";
+      const b=document.createElement("span"); b.className="pill"+(cur_===o?(" sel-"+o):"");
+      b.textContent=LABELS[o]; b.onclick=()=>setLabel(a,o);
+      pills.appendChild(b);
+    });
+    td2.appendChild(pills); tr.appendChild(td2); tb.appendChild(tr);
+  });
+}
+function save(){
+  data[cur].verified=true; data[cur].llm_prefilled = data[cur].llm_prefilled||false;
+  const s = JSON.parse(localStorage.getItem(LS_KEY())||"{}");
+  data.forEach(r=>{ if(r.verified) s[r.review_id]={labels:r.labels||[], verified:true}; });
+  localStorage.setItem(LS_KEY(), JSON.stringify(s));
+}
+$("next").onclick=()=>{ save(); if(cur<data.length-1){cur++;} render(); };
+$("prev").onclick=()=>{ if(cur>0){cur--;} render(); };
+$("jumpBtn").onclick=()=>{ const v=parseInt($("jump").value); if(v>=1&&v<=data.length){cur=v-1; render();} };
+$("exportBtn").onclick=()=>{
+  const out=data.map(r=>JSON.stringify({review_id:r.review_id,hotel:r.hotel,city:r.city,rating:r.rating,text:r.text,labels:r.labels||[],verified:!!r.verified})).join("\n");
+  const blob=new Blob([out],{type:"application/json"}); const a=document.createElement("a");
+  a.href=URL.createObjectURL(blob); a.download=fileName+"_verified.jsonl"; a.click();
+};
+document.addEventListener("keydown",e=>{
+  if($("card").style.display==="none") return;
+  if(e.key==="ArrowRight"){ $("next").click(); }
+  else if(e.key==="ArrowLeft"){ $("prev").click(); }
+});
+</script>
+</body>
+</html>

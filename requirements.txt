@@ -1,0 +1,14 @@
+# Core (tested: Python 3.14, CUDA 12.8)
+torch>=2.4
+transformers>=4.57,<5
+peft>=0.11
+scikit-learn>=1.3
+numpy>=1.26
+matplotlib>=3.8
+# Tokenizers for mT5 / XLM-R
+sentencepiece>=0.2
+protobuf>=4.25
+# Optional: 4-bit QLoRA
+# bitsandbytes>=0.43
+# Optional: zero-/few-shot LLM baseline (Google Gemini)
+# google-generativeai>=0.7

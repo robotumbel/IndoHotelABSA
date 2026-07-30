@@ -1,0 +1,51 @@
+cff-version: 1.2.0
+title: "IndoHotelABSA: An Explainable Aspect-Based Sentiment Analysis Framework and Benchmark Dataset for Indonesian Hotel Reviews in Hospitality CRM"
+message: "If you use this code or dataset, please cite both the paper and the dataset."
+type: software
+authors:
+  - given-names: Xaverius
+    family-names: Sika
+    orcid: "https://orcid.org/0009-0005-0279-7863"
+    affiliation: "Universitas Dinamika Bangsa (UNAMA)"
+  - given-names: Eko
+    family-names: Sediyono
+    orcid: "https://orcid.org/0000-0001-6034-9659"
+    affiliation: "Satya Wacana Christian University (UKSW)"
+  - given-names: Irwan
+    family-names: Sembiring
+    orcid: "https://orcid.org/0000-0002-6625-7533"
+    affiliation: "Satya Wacana Christian University (UKSW)"
+  - given-names: Teguh
+    family-names: Wahyono
+    orcid: "https://orcid.org/0000-0002-5433-5952"
+    affiliation: "Satya Wacana Christian University (UKSW)"
+  - given-names: "Eko Arip"
+    family-names: Winanto
+    orcid: "https://orcid.org/0000-0003-3274-1885"
+    affiliation: "Universitas Dinamika Bangsa (UNAMA)"
+license: MIT
+repository-code: "https://github.com/USERNAME/IndoHotelABSA"
+year: 2026
+preferred-citation:
+  type: article
+  title: "IndoHotelABSA: An Explainable Aspect-Based Sentiment Analysis Framework and Benchmark Dataset for Indonesian Hotel Reviews in Hospitality CRM"
+  journal: "Natural Language Processing Journal"
+  year: 2026
+  authors:
+    - given-names: Xaverius
+      family-names: Sika
+    - given-names: Eko
+      family-names: Sediyono
+    - given-names: Irwan
+      family-names: Sembiring
+    - given-names: Teguh
+      family-names: Wahyono
+    - given-names: "Eko Arip"
+      family-names: Winanto
+references:
+  - type: data
+    title: "IndoHotelABSA: A Large-Scale Aspect-Based Sentiment Analysis Benchmark for Indonesian Hotel Reviews"
+    doi: "10.17632/9vhzg5wkf9.1"
+    year: 2026
+    publisher:
+      name: "Mendeley Data"
