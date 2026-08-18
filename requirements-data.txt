@@ -1,0 +1,58 @@
+# IndoHotelABSA — dependencies for the dataset pipeline
+#
+# Scope note: this file covers the DATA scripts deposited with the data article
+# (collection, merging, sampling, silver pre-annotation, adjudication, agreement,
+# PII scrubbing, release verification, takedown, figures). Modelling and benchmark
+# experiments live in the companion research article and its own repository; their
+# dependencies (torch, transformers, peft, ...) are deliberately NOT listed here.
+#
+# Install:  pip install -r requirements.txt
+#
+# ---------------------------------------------------------------------------
+# Python
+# ---------------------------------------------------------------------------
+# Verified on CPython 3.14.6 (Windows 11). Requires >= 3.9 for the typing and
+# dict-ordering behaviour the scripts rely on.
+#
+# Most of the pipeline is standard library only. adjudicate_gold.py,
+# compute_kappa.py, merge_dataset.py, sample_for_annotation.py, scrub_pii.py,
+# verify_release.py, and remove_records.py import nothing outside the stdlib, so
+# they run on a bare interpreter and are unaffected by the pins below.
+#
+# ---------------------------------------------------------------------------
+# Required
+# ---------------------------------------------------------------------------
+
+# scrape_reviews.py — Google Places API calls (Text Search, Place Details)
+requests==2.32.5
+
+# preannotate_gemini.py — silver pre-annotation via the Gemini API
+google-genai==2.11.0
+
+# make_corpus_figures.py — Figure 1 (rating, length, and region distributions)
+matplotlib==3.11.0
+
+# ---------------------------------------------------------------------------
+# Optional
+# ---------------------------------------------------------------------------
+
+# scrape_reviews.py exposes a second, generic HTML-scraping mode ("mode B").
+# It was NOT used to build IndoHotelABSA — every review came from the official
+# Places API — so this package is only needed if you adapt that code path.
+# beautifulsoup4==4.13.4
+
+# ---------------------------------------------------------------------------
+# Reproducibility notes
+# ---------------------------------------------------------------------------
+# * Versions above were confirmed installed at revision time (August 2026). The
+#   corpus was collected on 10 July 2026 and pre-annotated on 16 July 2026; we do
+#   not claim byte-identical package versions on those dates, because the
+#   environment was not captured then. This matters little in practice: the
+#   collection and annotation logic depends on the remote APIs rather than on
+#   client library internals, and every downstream step is stdlib-only.
+# * google-genai talks to a hosted model. Re-running preannotate_gemini.py will
+#   not reproduce the silver labels exactly, whatever the pinned client version,
+#   because the served checkpoints change over time. The silver labels as used are
+#   released as data; they are not meant to be regenerated.
+# * Nothing here is needed to USE the dataset. The .jsonl files are plain UTF-8
+#   JSON Lines and can be read with the standard library alone.
