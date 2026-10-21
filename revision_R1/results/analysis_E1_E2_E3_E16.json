@@ -1,0 +1,815 @@
+{
+ "E1": {
+  "rows": [
+   {
+    "system": "Lexicon baseline",
+    "test400_gold": {
+     "ACD_macroF1": 0.7941486249108161,
+     "Joint_F1": 0.4280472890338361,
+     "Cell4_macroF1": 0.5000382094882359,
+     "F1_NEU_cell": 0.10934744268077602
+    },
+    "blind100_gold": {
+     "ACD_macroF1": 0.8075074325313755,
+     "Joint_F1": 0.4085667215815486,
+     "Cell4_macroF1": 0.4916618139532053,
+     "F1_NEU_cell": 0.08633093525179858
+    },
+    "blind100_blind": {
+     "ACD_macroF1": 0.796315286979833,
+     "Joint_F1": 0.4310850439882698,
+     "Cell4_macroF1": 0.5135786983017331,
+     "F1_NEU_cell": 0.22222222222222224
+    }
+   },
+   {
+    "system": "mBERT",
+    "test400_gold": {
+     "ACD_macroF1": 0.7707849086821342,
+     "Joint_F1": 0.670126019273536,
+     "Cell4_macroF1": 0.5535579458798535,
+     "F1_NEU_cell": 0.03389830508474576
+    },
+    "blind100_gold": {
+     "ACD_macroF1": 0.7813397485351619,
+     "Joint_F1": 0.6936936936936936,
+     "Cell4_macroF1": 0.5569360295886661,
+     "F1_NEU_cell": 0.0
+    },
+    "blind100_blind": {
+     "ACD_macroF1": 0.7942952181685873,
+     "Joint_F1": 0.6909581646423751,
+     "Cell4_macroF1": 0.5598939498739459,
+     "F1_NEU_cell": 0.0
+    }
+   },
+   {
+    "system": "XLM-RoBERTa",
+    "test400_gold": {
+     "ACD_macroF1": 0.7604690779681386,
+     "Joint_F1": 0.6702089975203684,
+     "Cell4_macroF1": 0.5442222899750508,
+     "F1_NEU_cell": 0.03333333333333333
+    },
+    "blind100_gold": {
+     "ACD_macroF1": 0.7682640210172009,
+     "Joint_F1": 0.6770538243626063,
+     "Cell4_macroF1": 0.5373587779111035,
+     "F1_NEU_cell": 0.0
+    },
+    "blind100_blind": {
+     "ACD_macroF1": 0.8234832319771213,
+     "Joint_F1": 0.7016645326504481,
+     "Cell4_macroF1": 0.5622671898644404,
+     "F1_NEU_cell": 0.0
+    }
+   },
+   {
+    "system": "IndoBERTweet",
+    "test400_gold": {
+     "ACD_macroF1": 0.801660054611528,
+     "Joint_F1": 0.7098024021697017,
+     "Cell4_macroF1": 0.5842713393417616,
+     "F1_NEU_cell": 0.034482758620689655
+    },
+    "blind100_gold": {
+     "ACD_macroF1": 0.8196204748981789,
+     "Joint_F1": 0.7289719626168225,
+     "Cell4_macroF1": 0.5861220382568844,
+     "F1_NEU_cell": 0.0
+    },
+    "blind100_blind": {
+     "ACD_macroF1": 0.8367968052625656,
+     "Joint_F1": 0.7252440725244073,
+     "Cell4_macroF1": 0.5929314304576239,
+     "F1_NEU_cell": 0.0
+    }
+   },
+   {
+    "system": "IndoBERT",
+    "test400_gold": {
+     "ACD_macroF1": 0.8499147965037473,
+     "Joint_F1": 0.7564766839378237,
+     "Cell4_macroF1": 0.6334774997171431,
+     "F1_NEU_cell": 0.09375
+    },
+    "blind100_gold": {
+     "ACD_macroF1": 0.8479396729545247,
+     "Joint_F1": 0.7620578778135049,
+     "Cell4_macroF1": 0.6444382182559953,
+     "F1_NEU_cell": 0.13333333333333336
+    },
+    "blind100_blind": {
+     "ACD_macroF1": 0.8559467600783286,
+     "Joint_F1": 0.7403156384505022,
+     "Cell4_macroF1": 0.6197076280118264,
+     "F1_NEU_cell": 0.05263157894736842
+    }
+   },
+   {
+    "system": "HI-ABSA",
+    "test400_gold": {
+     "ACD_macroF1": 0.853269371509031,
+     "Joint_F1": 0.7510848126232741,
+     "Cell4_macroF1": 0.6151557819783918,
+     "F1_NEU_cell": 0.032786885245901634
+    },
+    "blind100_gold": {
+     "ACD_macroF1": 0.8591762615968291,
+     "Joint_F1": 0.766295707472178,
+     "Cell4_macroF1": 0.6163242589624969,
+     "F1_NEU_cell": 0.0
+    },
+    "blind100_blind": {
+     "ACD_macroF1": 0.8614219496439768,
+     "Joint_F1": 0.7386363636363635,
+     "Cell4_macroF1": 0.6079376978177577,
+     "F1_NEU_cell": 0.0
+    }
+   },
+   {
+    "system": "mT5-small",
+    "test400_gold": {
+     "ACD_macroF1": 0.7701512438966622,
+     "Joint_F1": 0.6683982683982683,
+     "Cell4_macroF1": 0.5731663122807251,
+     "F1_NEU_cell": 0.06349206349206349
+    },
+    "blind100_gold": {
+     "ACD_macroF1": 0.7401218575659121,
+     "Joint_F1": 0.657293497363796,
+     "Cell4_macroF1": 0.547318395321739,
+     "F1_NEU_cell": 0.0
+    },
+    "blind100_blind": {
+     "ACD_macroF1": 0.730709723770918,
+     "Joint_F1": 0.6335403726708074,
+     "Cell4_macroF1": 0.534753737072664,
+     "F1_NEU_cell": 0.0
+    }
+   },
+   {
+    "system": "LoRA Qwen2.5-0.5B",
+    "test400_gold": {
+     "ACD_macroF1": 0.7451357237298575,
+     "Joint_F1": 0.6836158192090395,
+     "Cell4_macroF1": 0.5895524167681468,
+     "F1_NEU_cell": 0.08571428571428572
+    },
+    "blind100_gold": {
+     "ACD_macroF1": 0.7267184618865397,
+     "Joint_F1": 0.6933333333333334,
+     "Cell4_macroF1": 0.5994048107825356,
+     "F1_NEU_cell": 0.10526315789473684
+    },
+    "blind100_blind": {
+     "ACD_macroF1": 0.6922944235763063,
+     "Joint_F1": 0.6333333333333334,
+     "Cell4_macroF1": 0.5619507014440619,
+     "F1_NEU_cell": 0.09523809523809525
+    }
+   },
+   {
+    "system": "Gemini draft (silver)",
+    "test400_gold": {
+     "ACD_macroF1": 0.9326022040263543,
+     "Joint_F1": 0.8718381112984823,
+     "Cell4_macroF1": 0.7990260744477065,
+     "F1_NEU_cell": 0.4521739130434783
+    },
+    "blind100_gold": {
+     "ACD_macroF1": 0.926488880009378,
+     "Joint_F1": 0.883248730964467,
+     "Cell4_macroF1": 0.8256962940651011,
+     "F1_NEU_cell": 0.5517241379310345
+    },
+    "blind100_blind": {
+     "ACD_macroF1": 0.8483644209850881,
+     "Joint_F1": 0.7567567567567567,
+     "Cell4_macroF1": 0.6690513634836779,
+     "F1_NEU_cell": 0.1923076923076923
+    }
+   }
+  ],
+  "gold_vs_blind": {
+   "ACD_macroF1": 0.8460500111598843,
+   "Joint_F1": 0.7547723935389133,
+   "Cell4_macroF1": 0.6679956894079022,
+   "F1_NEU_cell": 0.20408163265306123
+  },
+  "gaps": {
+   "IndoBERT": {
+    "vs_gold": [
+     0.12119085315096212,
+     0.06818545853303914,
+     0.17242231038794642
+    ],
+    "vs_blind": [
+     0.0164411183062545,
+     -0.024836066815077218,
+     0.05684904026859805
+    ]
+   },
+   "HI-ABSA": {
+    "vs_gold": [
+     0.11695302349228898,
+     0.0678546135946757,
+     0.16208028859494972
+    ],
+    "vs_blind": [
+     0.018120393120393152,
+     -0.02494666423325509,
+     0.05881021971024092
+    ]
+   }
+  },
+  "ties": 3,
+  "gemini_equals_draft": 400
+ },
+ "E2": {
+  "verification_500": {
+   "fleiss_4class_all": 0.8939236042389783,
+   "fleiss_per_category": {
+    "NA": 0.9142723860919036,
+    "POSITIF": 0.8887965816905328,
+    "NEGATIF": 0.8986936024735864,
+    "NETRAL": 0.6315251062880614
+   },
+   "alpha_4class_all": 0.8939337067528601,
+   "fleiss_detection_binary": 0.9142723860919034,
+   "n_cells_any_mention": 1631,
+   "fleiss_4class_excl_unanimous_NA": 0.7748025552753182,
+   "alpha_4class_excl_unanimous_NA": 0.7748485796866658,
+   "n_cells_all_three_mention": 1410,
+   "fleiss_polarity_given_mention": 0.9050927603151182,
+   "fleiss_polarity_per_class": {
+    "POSITIF": 0.9288213670964233,
+    "NEGATIF": 0.9290024491637395,
+    "NETRAL": 0.6362045065919277
+   },
+   "alpha_polarity_given_mention": 0.9051151970148074,
+   "pairwise_confusion": {
+    "NA|NA": 11464,
+    "NEGATIF|NEGATIF": 4042,
+    "POSITIF|POSITIF": 3916,
+    "NETRAL|NETRAL": 258,
+    "NEGATIF|NA": 202,
+    "NA|NEGATIF": 202,
+    "NETRAL|NEGATIF": 68,
+    "NEGATIF|NETRAL": 68,
+    "POSITIF|NA": 230,
+    "NA|POSITIF": 230,
+    "NETRAL|NA": 10,
+    "NA|NETRAL": 10,
+    "NEGATIF|POSITIF": 82,
+    "POSITIF|NEGATIF": 82,
+    "POSITIF|NETRAL": 68,
+    "NETRAL|POSITIF": 68
+   },
+   "unanimous": 3170,
+   "majority_2of3": 330,
+   "three_way_ties": 0,
+   "n_cells": 3500
+  },
+  "per_aspect": {
+   "Lokasi": {
+    "fleiss_all": 0.811078797316174,
+    "fleiss_excl_NA": 0.5141738449490995,
+    "n_any_mention": 188
+   },
+   "Kebersihan": {
+    "fleiss_all": 0.8716650090063663,
+    "fleiss_excl_NA": 0.7347980513557051,
+    "n_any_mention": 244
+   },
+   "Pelayanan": {
+    "fleiss_all": 0.906289004709476,
+    "fleiss_excl_NA": 0.8409317141150708,
+    "n_any_mention": 357
+   },
+   "Kamar & Fasilitas": {
+    "fleiss_all": 0.8924651241828677,
+    "fleiss_excl_NA": 0.8308267034138255,
+    "n_any_mention": 388
+   },
+   "Harga": {
+    "fleiss_all": 0.9045689311141913,
+    "fleiss_excl_NA": 0.7700261144175877,
+    "n_any_mention": 153
+   },
+   "Makanan & Minuman": {
+    "fleiss_all": 0.9218850017033409,
+    "fleiss_excl_NA": 0.7937639393011765,
+    "n_any_mention": 131
+   },
+   "Fasilitas Pendukung": {
+    "fleiss_all": 0.8594881998190208,
+    "fleiss_excl_NA": 0.6902445246164498,
+    "n_any_mention": 170
+   }
+  },
+  "blind_100": {
+   "fleiss_4class_all": 0.9746640312663091,
+   "fleiss_per_category": {
+    "NA": 0.9788994077219033,
+    "POSITIF": 0.9706599645125285,
+    "NEGATIF": 0.9822940950807094,
+    "NETRAL": 0.9310671462267469
+   },
+   "alpha_4class_all": 0.9746760960133249,
+   "fleiss_detection_binary": 0.9788994077219032,
+   "n_cells_any_mention": 384,
+   "fleiss_4class_excl_unanimous_NA": 0.9457602311647287,
+   "alpha_4class_excl_unanimous_NA": 0.9458073142973986,
+   "n_cells_all_three_mention": 373,
+   "fleiss_polarity_given_mention": 0.9821193034241917,
+   "fleiss_polarity_per_class": {
+    "POSITIF": 0.9797552538644126,
+    "NEGATIF": 0.9963378474790383,
+    "NETRAL": 0.9474499859115244
+   },
+   "alpha_polarity_given_mention": 0.9821352825989692,
+   "pairwise_confusion": {
+    "POSITIF|POSITIF": 728,
+    "NEGATIF|NEGATIF": 1300,
+    "NETRAL|NETRAL": 200,
+    "NA|NA": 1902,
+    "NETRAL|NEGATIF": 2,
+    "NETRAL|POSITIF": 10,
+    "NEGATIF|NETRAL": 2,
+    "NEGATIF|POSITIF": 1,
+    "POSITIF|NETRAL": 10,
+    "POSITIF|NEGATIF": 1,
+    "NEGATIF|NA": 13,
+    "NA|NEGATIF": 13,
+    "NETRAL|NA": 2,
+    "NA|NETRAL": 2,
+    "POSITIF|NA": 7,
+    "NA|POSITIF": 7
+   },
+   "unanimous": 684,
+   "majority_2of3": 13,
+   "three_way_ties": 3,
+   "n_cells": 700
+  },
+  "verification_same_100": {
+   "fleiss_4class_all": 0.9079248475990847,
+   "fleiss_per_category": {
+    "NA": 0.9205320751373383,
+    "POSITIF": 0.8964311489073487,
+    "NEGATIF": 0.9213695943105888,
+    "NETRAL": 0.6864852760049267
+   },
+   "alpha_4class_all": 0.9079686929097517,
+   "fleiss_detection_binary": 0.9205320751373381,
+   "n_cells_any_mention": 325,
+   "fleiss_4class_excl_unanimous_NA": 0.7971900374053462,
+   "alpha_4class_excl_unanimous_NA": 0.7973980476233921,
+   "n_cells_all_three_mention": 284,
+   "fleiss_polarity_given_mention": 0.9277430297890384,
+   "fleiss_polarity_per_class": {
+    "POSITIF": 0.9498268673591972,
+    "NEGATIF": 0.9469237042406669,
+    "NETRAL": 0.6970128022759601
+   },
+   "alpha_polarity_given_mention": 0.9278278384395209,
+   "pairwise_confusion": {
+    "POSITIF|POSITIF": 634,
+    "NEGATIF|NEGATIF": 990,
+    "NA|NA": 2294,
+    "NEGATIF|NA": 40,
+    "NA|NEGATIF": 40,
+    "NETRAL|NEGATIF": 12,
+    "NETRAL|NETRAL": 54,
+    "NEGATIF|NETRAL": 12,
+    "POSITIF|NA": 40,
+    "NA|POSITIF": 40,
+    "POSITIF|NEGATIF": 10,
+    "NEGATIF|POSITIF": 10,
+    "NETRAL|POSITIF": 10,
+    "POSITIF|NETRAL": 10,
+    "NA|NETRAL": 2,
+    "NETRAL|NA": 2
+   },
+   "unanimous": 643,
+   "majority_2of3": 57,
+   "three_way_ties": 0,
+   "n_cells": 700
+  },
+  "majority_minority_pairs": {
+   "NA<-POSITIF": 70,
+   "NA<-NEGATIF": 51,
+   "NEGATIF<-NA": 50,
+   "POSITIF<-NA": 45,
+   "POSITIF<-NEGATIF": 24,
+   "NETRAL<-NEGATIF": 21,
+   "POSITIF<-NETRAL": 17,
+   "NETRAL<-POSITIF": 17,
+   "NEGATIF<-POSITIF": 17,
+   "NEGATIF<-NETRAL": 13,
+   "NA<-NETRAL": 4,
+   "NETRAL<-NA": 1
+  }
+ },
+ "E3": {
+  "silver train (2,480)": {
+   "Lokasi": {
+    "NA": 1686,
+    "POSITIF": 658,
+    "NEGATIF": 81,
+    "NETRAL": 55
+   },
+   "Kebersihan": {
+    "NEGATIF": 423,
+    "NA": 1699,
+    "POSITIF": 354,
+    "NETRAL": 4
+   },
+   "Pelayanan": {
+    "NEGATIF": 796,
+    "POSITIF": 744,
+    "NA": 916,
+    "NETRAL": 24
+   },
+   "Kamar & Fasilitas": {
+    "NEGATIF": 1012,
+    "POSITIF": 854,
+    "NA": 553,
+    "NETRAL": 61
+   },
+   "Harga": {
+    "NA": 1715,
+    "POSITIF": 373,
+    "NETRAL": 97,
+    "NEGATIF": 295
+   },
+   "Makanan & Minuman": {
+    "NA": 1777,
+    "POSITIF": 384,
+    "NEGATIF": 255,
+    "NETRAL": 64
+   },
+   "Fasilitas Pendukung": {
+    "NA": 1676,
+    "POSITIF": 379,
+    "NEGATIF": 396,
+    "NETRAL": 29
+   }
+  },
+  "gold val (100)": {
+   "Lokasi": {
+    "POSITIF": 29,
+    "NA": 66,
+    "NEGATIF": 3,
+    "NETRAL": 2
+   },
+   "Kebersihan": {
+    "NEGATIF": 16,
+    "NA": 64,
+    "POSITIF": 19,
+    "NETRAL": 1
+   },
+   "Pelayanan": {
+    "POSITIF": 30,
+    "NEGATIF": 31,
+    "NA": 38,
+    "NETRAL": 1
+   },
+   "Kamar & Fasilitas": {
+    "NEGATIF": 34,
+    "POSITIF": 36,
+    "NETRAL": 4,
+    "NA": 26
+   },
+   "Harga": {
+    "NA": 69,
+    "NEGATIF": 12,
+    "POSITIF": 14,
+    "NETRAL": 5
+   },
+   "Makanan & Minuman": {
+    "NA": 75,
+    "NEGATIF": 7,
+    "POSITIF": 17,
+    "NETRAL": 1
+   },
+   "Fasilitas Pendukung": {
+    "NA": 66,
+    "POSITIF": 18,
+    "NEGATIF": 16
+   }
+  },
+  "gold test (400)": {
+   "Lokasi": {
+    "NA": 278,
+    "POSITIF": 100,
+    "NETRAL": 9,
+    "NEGATIF": 13
+   },
+   "Kebersihan": {
+    "NEGATIF": 115,
+    "POSITIF": 63,
+    "NA": 222
+   },
+   "Pelayanan": {
+    "NEGATIF": 154,
+    "NETRAL": 4,
+    "NA": 123,
+    "POSITIF": 119
+   },
+   "Kamar & Fasilitas": {
+    "NEGATIF": 176,
+    "POSITIF": 112,
+    "NA": 97,
+    "NETRAL": 15
+   },
+   "Harga": {
+    "POSITIF": 53,
+    "NA": 286,
+    "NEGATIF": 52,
+    "NETRAL": 9
+   },
+   "Makanan & Minuman": {
+    "NA": 300,
+    "POSITIF": 52,
+    "NETRAL": 9,
+    "NEGATIF": 39
+   },
+   "Fasilitas Pendukung": {
+    "NEGATIF": 59,
+    "NA": 284,
+    "NETRAL": 9,
+    "POSITIF": 48
+   }
+  },
+  "gold all (500)": {
+   "Lokasi": {
+    "NA": 344,
+    "POSITIF": 129,
+    "NETRAL": 11,
+    "NEGATIF": 16
+   },
+   "Kebersihan": {
+    "NEGATIF": 131,
+    "POSITIF": 82,
+    "NA": 286,
+    "NETRAL": 1
+   },
+   "Pelayanan": {
+    "NEGATIF": 185,
+    "POSITIF": 149,
+    "NA": 161,
+    "NETRAL": 5
+   },
+   "Kamar & Fasilitas": {
+    "NEGATIF": 210,
+    "POSITIF": 148,
+    "NA": 123,
+    "NETRAL": 19
+   },
+   "Harga": {
+    "NA": 355,
+    "POSITIF": 67,
+    "NETRAL": 14,
+    "NEGATIF": 64
+   },
+   "Makanan & Minuman": {
+    "NA": 375,
+    "POSITIF": 69,
+    "NEGATIF": 46,
+    "NETRAL": 10
+   },
+   "Fasilitas Pendukung": {
+    "NA": 350,
+    "POSITIF": 66,
+    "NEGATIF": 75,
+    "NETRAL": 9
+   }
+  },
+  "rating_bucket": {
+   "1-2★": {
+    "NEGATIF": 491,
+    "POSITIF": 42,
+    "NETRAL": 7
+   },
+   "4-5★": {
+    "POSITIF": 526,
+    "NETRAL": 30,
+    "NEGATIF": 59
+   },
+   "3★": {
+    "POSITIF": 142,
+    "NEGATIF": 177,
+    "NETRAL": 32
+   }
+  },
+  "mixed_reviews": {
+   "3★": 58,
+   "1-2★": 30,
+   "4-5★": 33
+  }
+ },
+ "E16": {
+  "silver train": {
+   "reviews": 2480,
+   "reviews_any_nonzero": 2180,
+   "per_aspect": {
+    "Lokasi": {
+     "cue_hit": 929,
+     "cue_hit_substring_only": 81,
+     "nonzero": 893,
+     "mentioned": 794,
+     "nonzero_when_mentioned": 662,
+     "cue_missing_when_mentioned": 110,
+     "NA": 1686,
+     "nonzero_when_NA": 231
+    },
+    "Kebersihan": {
+     "cue_hit": 1136,
+     "cue_hit_substring_only": 93,
+     "nonzero": 1133,
+     "mentioned": 781,
+     "nonzero_when_mentioned": 709,
+     "cue_missing_when_mentioned": 71,
+     "NA": 1699,
+     "nonzero_when_NA": 424
+    },
+    "Pelayanan": {
+     "cue_hit": 1155,
+     "cue_hit_substring_only": 161,
+     "nonzero": 1113,
+     "mentioned": 1564,
+     "nonzero_when_mentioned": 1071,
+     "cue_missing_when_mentioned": 452,
+     "NA": 916,
+     "nonzero_when_NA": 42
+    },
+    "Kamar & Fasilitas": {
+     "cue_hit": 1992,
+     "cue_hit_substring_only": 150,
+     "nonzero": 1882,
+     "mentioned": 1927,
+     "nonzero_when_mentioned": 1701,
+     "cue_missing_when_mentioned": 136,
+     "NA": 553,
+     "nonzero_when_NA": 181
+    },
+    "Harga": {
+     "cue_hit": 652,
+     "cue_hit_substring_only": 57,
+     "nonzero": 623,
+     "mentioned": 765,
+     "nonzero_when_mentioned": 580,
+     "cue_missing_when_mentioned": 160,
+     "NA": 1715,
+     "nonzero_when_NA": 43
+    },
+    "Makanan & Minuman": {
+     "cue_hit": 1041,
+     "cue_hit_substring_only": 303,
+     "nonzero": 1007,
+     "mentioned": 703,
+     "nonzero_when_mentioned": 623,
+     "cue_missing_when_mentioned": 63,
+     "NA": 1777,
+     "nonzero_when_NA": 384
+    },
+    "Fasilitas Pendukung": {
+     "cue_hit": 811,
+     "cue_hit_substring_only": 108,
+     "nonzero": 777,
+     "mentioned": 804,
+     "nonzero_when_mentioned": 583,
+     "cue_missing_when_mentioned": 203,
+     "NA": 1676,
+     "nonzero_when_NA": 194
+    }
+   }
+  },
+  "gold test": {
+   "reviews": 400,
+   "reviews_any_nonzero": 363,
+   "per_aspect": {
+    "Lokasi": {
+     "cue_hit": 139,
+     "cue_hit_substring_only": 12,
+     "nonzero": 136,
+     "mentioned": 122,
+     "nonzero_when_mentioned": 89,
+     "cue_missing_when_mentioned": 30,
+     "NA": 278,
+     "nonzero_when_NA": 47
+    },
+    "Kebersihan": {
+     "cue_hit": 192,
+     "cue_hit_substring_only": 13,
+     "nonzero": 192,
+     "mentioned": 178,
+     "nonzero_when_mentioned": 155,
+     "cue_missing_when_mentioned": 23,
+     "NA": 222,
+     "nonzero_when_NA": 37
+    },
+    "Pelayanan": {
+     "cue_hit": 192,
+     "cue_hit_substring_only": 28,
+     "nonzero": 186,
+     "mentioned": 277,
+     "nonzero_when_mentioned": 181,
+     "cue_missing_when_mentioned": 90,
+     "NA": 123,
+     "nonzero_when_NA": 5
+    },
+    "Kamar & Fasilitas": {
+     "cue_hit": 323,
+     "cue_hit_substring_only": 23,
+     "nonzero": 309,
+     "mentioned": 303,
+     "nonzero_when_mentioned": 282,
+     "cue_missing_when_mentioned": 15,
+     "NA": 97,
+     "nonzero_when_NA": 27
+    },
+    "Harga": {
+     "cue_hit": 105,
+     "cue_hit_substring_only": 8,
+     "nonzero": 104,
+     "mentioned": 114,
+     "nonzero_when_mentioned": 98,
+     "cue_missing_when_mentioned": 15,
+     "NA": 286,
+     "nonzero_when_NA": 6
+    },
+    "Makanan & Minuman": {
+     "cue_hit": 161,
+     "cue_hit_substring_only": 60,
+     "nonzero": 158,
+     "mentioned": 100,
+     "nonzero_when_mentioned": 88,
+     "cue_missing_when_mentioned": 11,
+     "NA": 300,
+     "nonzero_when_NA": 70
+    },
+    "Fasilitas Pendukung": {
+     "cue_hit": 131,
+     "cue_hit_substring_only": 18,
+     "nonzero": 128,
+     "mentioned": 116,
+     "nonzero_when_mentioned": 87,
+     "cue_missing_when_mentioned": 28,
+     "NA": 284,
+     "nonzero_when_NA": 41
+    }
+   }
+  },
+  "substring_only_cues_test": {
+   "Food & Beverage/rasa": 42,
+   "Service/Staff/staf": 38,
+   "Food & Beverage/makan": 37,
+   "Room & Facilities/ac": 37,
+   "Cleanliness/bersih": 34,
+   "Room & Facilities/kamar": 29,
+   "Food & Beverage/menu": 29,
+   "Service/Staff/pelayanan": 19,
+   "Location/lokasi": 15,
+   "Location/jalan": 13,
+   "Food & Beverage/enak": 12,
+   "Public Facilities/parkir": 11,
+   "Room & Facilities/nyaman": 9,
+   "Cleanliness/debu": 8,
+   "Room & Facilities/kasur": 8,
+   "Room & Facilities/view": 8,
+   "Price/Value/harga": 7,
+   "Public Facilities/spa": 7,
+   "Cleanliness/bau": 7,
+   "Service/Staff/resepsionis": 7,
+   "Public Facilities/fasilitas": 5,
+   "Service/Staff/ramah": 5,
+   "Cleanliness/kebersihan": 5,
+   "Room & Facilities/tv": 5,
+   "Room & Facilities/handuk": 3,
+   "Price/Value/murah": 3,
+   "Food & Beverage/sarapan": 3,
+   "Service/Staff/lambat": 3,
+   "Room & Facilities/luas": 3,
+   "Cleanliness/kotor": 3,
+   "Public Facilities/wifi": 2,
+   "Price/Value/mahal": 2,
+   "Location/akses": 2,
+   "Food & Beverage/minuman": 2,
+   "Room & Facilities/tempat tidur": 2,
+   "Location/dekat": 2,
+   "Room & Facilities/air panas": 2,
+   "Price/Value/promo": 1,
+   "Price/Value/value": 1,
+   "Cleanliness/rokok": 1,
+   "Service/Staff/senyum": 1,
+   "Location/mall": 1,
+   "Location/jauh": 1,
+   "Food & Beverage/restoran": 1,
+   "Cleanliness/wangi": 1,
+   "Location/strategis": 1,
+   "Public Facilities/kolam": 1
+  }
+ }
+}

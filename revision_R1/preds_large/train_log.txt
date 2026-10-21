@@ -1,0 +1,50 @@
+indobert_large seed=42 epoch=1 loss=0.9987 val_cell_acc=0.6629
+indobert_large seed=42 epoch=2 loss=0.6250 val_cell_acc=0.8329
+indobert_large seed=42 epoch=3 loss=0.4787 val_cell_acc=0.8429
+indobert_large seed=42 epoch=4 loss=0.4182 val_cell_acc=0.8529
+indobert_large seed=42 done best_val=0.8529 6.5 min
+indobert_large seed=123 epoch=1 loss=0.9689 val_cell_acc=0.6957
+indobert_large seed=123 epoch=2 loss=0.5993 val_cell_acc=0.8200
+indobert_large seed=123 epoch=3 loss=0.4684 val_cell_acc=0.8371
+indobert_large seed=123 epoch=4 loss=0.4101 val_cell_acc=0.8457
+indobert_large seed=123 done best_val=0.8457 6.5 min
+indobert_large seed=7 epoch=1 loss=0.9782 val_cell_acc=0.6871
+indobert_large seed=7 epoch=2 loss=0.6193 val_cell_acc=0.8357
+indobert_large seed=7 epoch=3 loss=0.4725 val_cell_acc=0.8486
+indobert_large seed=7 epoch=4 loss=0.4090 val_cell_acc=0.8557
+indobert_large seed=7 done best_val=0.8557 6.5 min
+indobert_large seed=2024 epoch=1 loss=0.9996 val_cell_acc=0.6771
+indobert_large seed=2024 epoch=2 loss=0.6325 val_cell_acc=0.8143
+indobert_large seed=2024 epoch=3 loss=0.4932 val_cell_acc=0.8429
+indobert_large seed=2024 epoch=4 loss=0.4318 val_cell_acc=0.8471
+indobert_large seed=2024 done best_val=0.8471 6.5 min
+indobert_large seed=99 epoch=1 loss=1.0131 val_cell_acc=0.6886
+indobert_large seed=99 epoch=2 loss=0.6219 val_cell_acc=0.7843
+indobert_large seed=99 epoch=3 loss=0.4798 val_cell_acc=0.8286
+indobert_large seed=99 epoch=4 loss=0.4142 val_cell_acc=0.8486
+indobert_large seed=99 done best_val=0.8486 6.5 min
+xlmr_large seed=42 epoch=1 loss=1.0914 val_cell_acc=0.6429
+xlmr_large seed=42 epoch=2 loss=0.7106 val_cell_acc=0.7700
+xlmr_large seed=42 epoch=3 loss=0.5316 val_cell_acc=0.8086
+xlmr_large seed=42 epoch=4 loss=0.4458 val_cell_acc=0.8386
+xlmr_large seed=42 done best_val=0.8386 7.8 min
+xlmr_large seed=123 epoch=1 loss=1.1219 val_cell_acc=0.6214
+xlmr_large seed=123 epoch=2 loss=0.7244 val_cell_acc=0.7400
+xlmr_large seed=123 epoch=3 loss=0.5529 val_cell_acc=0.8129
+xlmr_large seed=123 epoch=4 loss=0.4619 val_cell_acc=0.8257
+xlmr_large seed=123 done best_val=0.8257 7.8 min
+xlmr_large seed=7 epoch=1 loss=1.1055 val_cell_acc=0.6343
+xlmr_large seed=7 epoch=2 loss=0.6903 val_cell_acc=0.7871
+xlmr_large seed=7 epoch=3 loss=0.5298 val_cell_acc=0.8100
+xlmr_large seed=7 epoch=4 loss=0.4538 val_cell_acc=0.8329
+xlmr_large seed=7 done best_val=0.8329 7.8 min
+xlmr_large seed=2024 epoch=1 loss=1.1254 val_cell_acc=0.5571
+xlmr_large seed=2024 epoch=2 loss=0.7189 val_cell_acc=0.7614
+xlmr_large seed=2024 epoch=3 loss=0.5410 val_cell_acc=0.8257
+xlmr_large seed=2024 epoch=4 loss=0.4483 val_cell_acc=0.8257
+xlmr_large seed=2024 done best_val=0.8257 7.7 min
+xlmr_large seed=99 epoch=1 loss=1.1085 val_cell_acc=0.6200
+xlmr_large seed=99 epoch=2 loss=0.6432 val_cell_acc=0.8129
+xlmr_large seed=99 epoch=3 loss=0.4824 val_cell_acc=0.8386
+xlmr_large seed=99 epoch=4 loss=0.4120 val_cell_acc=0.8514
+xlmr_large seed=99 done best_val=0.8514 7.8 min

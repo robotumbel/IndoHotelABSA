@@ -1,0 +1,400 @@
+{"review_id": 1444, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Harga", "polarity": "NEGATIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "NEGATIF"}]}
+{"review_id": 2230, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}]}
+{"review_id": 1470, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Kebersihan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Harga", "polarity": "POSITIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "POSITIF"}]}
+{"review_id": 2164, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Makanan & Minuman", "polarity": "NEGATIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "NEGATIF"}]}
+{"review_id": 533, "labels": [{"aspect": "Kebersihan", "polarity": "POSITIF"}, {"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Makanan & Minuman", "polarity": "POSITIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "POSITIF"}]}
+{"review_id": 2012, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}]}
+{"review_id": 1054, "labels": [{"aspect": "Harga", "polarity": "POSITIF"}, {"aspect": "Makanan & Minuman", "polarity": "POSITIF"}]}
+{"review_id": 2409, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Kebersihan", "polarity": "POSITIF"}, {"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Makanan & Minuman", "polarity": "NEGATIF"}]}
+{"review_id": 917, "labels": [{"aspect": "Pelayanan", "polarity": "NEGATIF"}]}
+{"review_id": 1967, "labels": [{"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Makanan & Minuman", "polarity": "NEGATIF"}]}
+{"review_id": 227, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Harga", "polarity": "POSITIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "POSITIF"}]}
+{"review_id": 2403, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Kebersihan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Harga", "polarity": "POSITIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "POSITIF"}]}
+{"review_id": 415, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "NEGATIF"}]}
+{"review_id": 629, "labels": [{"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}]}
+{"review_id": 2135, "labels": [{"aspect": "Kebersihan", "polarity": "POSITIF"}, {"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "POSITIF"}]}
+{"review_id": 2926, "labels": [{"aspect": "Kebersihan", "polarity": "POSITIF"}, {"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Harga", "polarity": "POSITIF"}]}
+{"review_id": 2605, "labels": [{"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Harga", "polarity": "NEGATIF"}]}
+{"review_id": 977, "labels": [{"aspect": "Kebersihan", "polarity": "POSITIF"}, {"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}]}
+{"review_id": 184, "labels": [{"aspect": "Kebersihan", "polarity": "POSITIF"}, {"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}]}
+{"review_id": 1502, "labels": [{"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Harga", "polarity": "POSITIF"}, {"aspect": "Makanan & Minuman", "polarity": "POSITIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "POSITIF"}]}
+{"review_id": 36, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}]}
+{"review_id": 1645, "labels": [{"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "NEGATIF"}]}
+{"review_id": 2889, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}]}
+{"review_id": 1458, "labels": [{"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "NEGATIF"}]}
+{"review_id": 1602, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Harga", "polarity": "NEGATIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "NEGATIF"}]}
+{"review_id": 2480, "labels": [{"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "NEGATIF"}]}
+{"review_id": 1830, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Harga", "polarity": "NEGATIF"}, {"aspect": "Makanan & Minuman", "polarity": "NEGATIF"}]}
+{"review_id": 1182, "labels": [{"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}]}
+{"review_id": 819, "labels": [{"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Harga", "polarity": "NEGATIF"}, {"aspect": "Makanan & Minuman", "polarity": "NEGATIF"}]}
+{"review_id": 2026, "labels": [{"aspect": "Kebersihan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}]}
+{"review_id": 2009, "labels": [{"aspect": "Kebersihan", "polarity": "POSITIF"}, {"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}]}
+{"review_id": 12, "labels": [{"aspect": "Pelayanan", "polarity": "NEGATIF"}]}
+{"review_id": 82, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Kebersihan", "polarity": "POSITIF"}, {"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Makanan & Minuman", "polarity": "POSITIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "POSITIF"}]}
+{"review_id": 2916, "labels": [{"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Makanan & Minuman", "polarity": "NEGATIF"}]}
+{"review_id": 1604, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}]}
+{"review_id": 447, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Harga", "polarity": "POSITIF"}]}
+{"review_id": 1542, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}]}
+{"review_id": 1971, "labels": [{"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Harga", "polarity": "NEGATIF"}]}
+{"review_id": 2156, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Harga", "polarity": "NETRAL"}, {"aspect": "Fasilitas Pendukung", "polarity": "POSITIF"}]}
+{"review_id": 2797, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Kebersihan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Harga", "polarity": "POSITIF"}, {"aspect": "Makanan & Minuman", "polarity": "POSITIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "POSITIF"}]}
+{"review_id": 845, "labels": [{"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}]}
+{"review_id": 2680, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Kebersihan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "POSITIF"}]}
+{"review_id": 400, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}]}
+{"review_id": 1083, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Harga", "polarity": "NEGATIF"}]}
+{"review_id": 822, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Makanan & Minuman", "polarity": "NEGATIF"}]}
+{"review_id": 846, "labels": [{"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Harga", "polarity": "NEGATIF"}]}
+{"review_id": 2502, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}]}
+{"review_id": 1741, "labels": [{"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Makanan & Minuman", "polarity": "NEGATIF"}]}
+{"review_id": 1660, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}]}
+{"review_id": 2776, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Kebersihan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "NEGATIF"}]}
+{"review_id": 1259, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}]}
+{"review_id": 853, "labels": [{"aspect": "Kebersihan", "polarity": "POSITIF"}, {"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Makanan & Minuman", "polarity": "POSITIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "POSITIF"}]}
+{"review_id": 2619, "labels": [{"aspect": "Kebersihan", "polarity": "POSITIF"}, {"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}]}
+{"review_id": 1738, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}]}
+{"review_id": 2097, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Harga", "polarity": "NEGATIF"}]}
+{"review_id": 2769, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Harga", "polarity": "POSITIF"}, {"aspect": "Makanan & Minuman", "polarity": "POSITIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "POSITIF"}]}
+{"review_id": 1997, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}]}
+{"review_id": 73, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}]}
+{"review_id": 2678, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Kebersihan", "polarity": "POSITIF"}, {"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "POSITIF"}]}
+{"review_id": 88, "labels": [{"aspect": "Kebersihan", "polarity": "POSITIF"}, {"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Harga", "polarity": "POSITIF"}]}
+{"review_id": 806, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Kebersihan", "polarity": "POSITIF"}, {"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "POSITIF"}]}
+{"review_id": 1473, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}]}
+{"review_id": 1856, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Harga", "polarity": "POSITIF"}]}
+{"review_id": 1796, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Harga", "polarity": "POSITIF"}]}
+{"review_id": 2079, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Makanan & Minuman", "polarity": "NEGATIF"}]}
+{"review_id": 1877, "labels": [{"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "NEGATIF"}]}
+{"review_id": 890, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Harga", "polarity": "POSITIF"}, {"aspect": "Makanan & Minuman", "polarity": "POSITIF"}]}
+{"review_id": 1232, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Kebersihan", "polarity": "POSITIF"}, {"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Harga", "polarity": "POSITIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "POSITIF"}]}
+{"review_id": 2377, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Makanan & Minuman", "polarity": "POSITIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "POSITIF"}]}
+{"review_id": 2446, "labels": [{"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}]}
+{"review_id": 1153, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Harga", "polarity": "NEGATIF"}]}
+{"review_id": 1210, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Harga", "polarity": "POSITIF"}, {"aspect": "Makanan & Minuman", "polarity": "POSITIF"}]}
+{"review_id": 2567, "labels": [{"aspect": "Kebersihan", "polarity": "POSITIF"}, {"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Makanan & Minuman", "polarity": "POSITIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "POSITIF"}]}
+{"review_id": 66, "labels": [{"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Harga", "polarity": "NEGATIF"}, {"aspect": "Makanan & Minuman", "polarity": "NEGATIF"}]}
+{"review_id": 350, "labels": [{"aspect": "Kebersihan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}]}
+{"review_id": 440, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}]}
+{"review_id": 1783, "labels": [{"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Harga", "polarity": "POSITIF"}]}
+{"review_id": 229, "labels": [{"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "POSITIF"}]}
+{"review_id": 2396, "labels": [{"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "NEGATIF"}]}
+{"review_id": 2729, "labels": [{"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}]}
+{"review_id": 1574, "labels": [{"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Makanan & Minuman", "polarity": "NEGATIF"}]}
+{"review_id": 1076, "labels": [{"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Makanan & Minuman", "polarity": "POSITIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "POSITIF"}]}
+{"review_id": 1276, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}]}
+{"review_id": 2803, "labels": [{"aspect": "Pelayanan", "polarity": "NEGATIF"}]}
+{"review_id": 2573, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}]}
+{"review_id": 401, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "NEGATIF"}]}
+{"review_id": 596, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}]}
+{"review_id": 2837, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}]}
+{"review_id": 579, "labels": [{"aspect": "Pelayanan", "polarity": "NEGATIF"}]}
+{"review_id": 1173, "labels": [{"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "NEGATIF"}]}
+{"review_id": 2085, "labels": [{"aspect": "Pelayanan", "polarity": "NEGATIF"}]}
+{"review_id": 1817, "labels": [{"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Makanan & Minuman", "polarity": "POSITIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "POSITIF"}]}
+{"review_id": 1999, "labels": [{"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Harga", "polarity": "NEGATIF"}]}
+{"review_id": 2714, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Harga", "polarity": "POSITIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "POSITIF"}]}
+{"review_id": 763, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Kebersihan", "polarity": "POSITIF"}, {"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}]}
+{"review_id": 1496, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Kebersihan", "polarity": "POSITIF"}, {"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Makanan & Minuman", "polarity": "POSITIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "POSITIF"}]}
+{"review_id": 252, "labels": [{"aspect": "Kebersihan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Makanan & Minuman", "polarity": "POSITIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "POSITIF"}]}
+{"review_id": 368, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Kebersihan", "polarity": "POSITIF"}, {"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}]}
+{"review_id": 1156, "labels": [{"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}]}
+{"review_id": 2580, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Kebersihan", "polarity": "POSITIF"}, {"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}]}
+{"review_id": 1619, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "NEGATIF"}]}
+{"review_id": 1549, "labels": [{"aspect": "Kebersihan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Harga", "polarity": "POSITIF"}, {"aspect": "Makanan & Minuman", "polarity": "POSITIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "POSITIF"}]}
+{"review_id": 2366, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Harga", "polarity": "POSITIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "POSITIF"}]}
+{"review_id": 2991, "labels": [{"aspect": "Kebersihan", "polarity": "POSITIF"}, {"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}]}
+{"review_id": 1412, "labels": [{"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Harga", "polarity": "NEGATIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "NEGATIF"}]}
+{"review_id": 2975, "labels": [{"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}]}
+{"review_id": 691, "labels": [{"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Harga", "polarity": "POSITIF"}]}
+{"review_id": 83, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Makanan & Minuman", "polarity": "NEGATIF"}]}
+{"review_id": 1335, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}]}
+{"review_id": 715, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Kebersihan", "polarity": "POSITIF"}, {"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Harga", "polarity": "POSITIF"}]}
+{"review_id": 2242, "labels": [{"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Makanan & Minuman", "polarity": "NEGATIF"}]}
+{"review_id": 2369, "labels": [{"aspect": "Harga", "polarity": "NEGATIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "NEGATIF"}]}
+{"review_id": 2639, "labels": [{"aspect": "Kebersihan", "polarity": "POSITIF"}, {"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Harga", "polarity": "POSITIF"}]}
+{"review_id": 1839, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Makanan & Minuman", "polarity": "NEGATIF"}]}
+{"review_id": 2955, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Kebersihan", "polarity": "POSITIF"}, {"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Makanan & Minuman", "polarity": "POSITIF"}]}
+{"review_id": 2331, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "NEGATIF"}]}
+{"review_id": 1491, "labels": [{"aspect": "Kebersihan", "polarity": "POSITIF"}, {"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Harga", "polarity": "POSITIF"}]}
+{"review_id": 2674, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Kebersihan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Makanan & Minuman", "polarity": "POSITIF"}]}
+{"review_id": 2630, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}]}
+{"review_id": 146, "labels": [{"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "NEGATIF"}]}
+{"review_id": 1375, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}]}
+{"review_id": 2784, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Kebersihan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "POSITIF"}]}
+{"review_id": 534, "labels": [{"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "NEGATIF"}]}
+{"review_id": 2227, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}]}
+{"review_id": 609, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Makanan & Minuman", "polarity": "POSITIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "NEGATIF"}]}
+{"review_id": 2866, "labels": [{"aspect": "Pelayanan", "polarity": "NEGATIF"}]}
+{"review_id": 136, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}]}
+{"review_id": 1932, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "NEGATIF"}]}
+{"review_id": 1022, "labels": [{"aspect": "Kebersihan", "polarity": "POSITIF"}, {"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}]}
+{"review_id": 2681, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}]}
+{"review_id": 2827, "labels": [{"aspect": "Makanan & Minuman", "polarity": "NEGATIF"}]}
+{"review_id": 2513, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "NEGATIF"}]}
+{"review_id": 1380, "labels": [{"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}]}
+{"review_id": 2565, "labels": [{"aspect": "Lokasi", "polarity": "NETRAL"}]}
+{"review_id": 616, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Kebersihan", "polarity": "POSITIF"}, {"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Harga", "polarity": "POSITIF"}, {"aspect": "Makanan & Minuman", "polarity": "POSITIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "POSITIF"}]}
+{"review_id": 2296, "labels": [{"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}]}
+{"review_id": 541, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Kebersihan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Makanan & Minuman", "polarity": "POSITIF"}]}
+{"review_id": 2690, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}]}
+{"review_id": 1047, "labels": [{"aspect": "Kamar & Fasilitas", "polarity": "NETRAL"}]}
+{"review_id": 1481, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Kebersihan", "polarity": "POSITIF"}, {"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Harga", "polarity": "POSITIF"}, {"aspect": "Makanan & Minuman", "polarity": "POSITIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "POSITIF"}]}
+{"review_id": 2481, "labels": [{"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Harga", "polarity": "NEGATIF"}]}
+{"review_id": 315, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Kebersihan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Makanan & Minuman", "polarity": "NEGATIF"}]}
+{"review_id": 610, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}]}
+{"review_id": 1253, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "NEGATIF"}]}
+{"review_id": 1506, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Harga", "polarity": "NEGATIF"}]}
+{"review_id": 1208, "labels": [{"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Harga", "polarity": "NEGATIF"}]}
+{"review_id": 385, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}]}
+{"review_id": 2843, "labels": [{"aspect": "Kebersihan", "polarity": "POSITIF"}, {"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Harga", "polarity": "POSITIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "POSITIF"}]}
+{"review_id": 884, "labels": [{"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Makanan & Minuman", "polarity": "POSITIF"}]}
+{"review_id": 855, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "NEGATIF"}]}
+{"review_id": 1410, "labels": [{"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}]}
+{"review_id": 2578, "labels": [{"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}]}
+{"review_id": 2882, "labels": [{"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Harga", "polarity": "POSITIF"}, {"aspect": "Makanan & Minuman", "polarity": "NEGATIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "NEGATIF"}]}
+{"review_id": 2930, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "POSITIF"}]}
+{"review_id": 2682, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}]}
+{"review_id": 663, "labels": [{"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}]}
+{"review_id": 1845, "labels": [{"aspect": "Lokasi", "polarity": "NEGATIF"}, {"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Harga", "polarity": "NEGATIF"}]}
+{"review_id": 2642, "labels": [{"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Harga", "polarity": "NEGATIF"}]}
+{"review_id": 730, "labels": [{"aspect": "Kebersihan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Harga", "polarity": "POSITIF"}, {"aspect": "Makanan & Minuman", "polarity": "NEGATIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "NEGATIF"}]}
+{"review_id": 1613, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Kebersihan", "polarity": "POSITIF"}, {"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}]}
+{"review_id": 1048, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Harga", "polarity": "NEGATIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "NEGATIF"}]}
+{"review_id": 2350, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Makanan & Minuman", "polarity": "POSITIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "POSITIF"}]}
+{"review_id": 210, "labels": [{"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Harga", "polarity": "NEGATIF"}, {"aspect": "Makanan & Minuman", "polarity": "NEGATIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "NEGATIF"}]}
+{"review_id": 1651, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Makanan & Minuman", "polarity": "POSITIF"}]}
+{"review_id": 183, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}]}
+{"review_id": 2472, "labels": [{"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}]}
+{"review_id": 2732, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Makanan & Minuman", "polarity": "NEGATIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "NEGATIF"}]}
+{"review_id": 2169, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "NEGATIF"}]}
+{"review_id": 2355, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Harga", "polarity": "NEGATIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "NEGATIF"}]}
+{"review_id": 46, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}]}
+{"review_id": 1061, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}]}
+{"review_id": 2098, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Harga", "polarity": "NEGATIF"}, {"aspect": "Makanan & Minuman", "polarity": "NEGATIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "NEGATIF"}]}
+{"review_id": 709, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Harga", "polarity": "NEGATIF"}]}
+{"review_id": 2238, "labels": [{"aspect": "Pelayanan", "polarity": "POSITIF"}]}
+{"review_id": 377, "labels": [{"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}]}
+{"review_id": 1450, "labels": [{"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Makanan & Minuman", "polarity": "POSITIF"}]}
+{"review_id": 1608, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "NEGATIF"}]}
+{"review_id": 1408, "labels": [{"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}]}
+{"review_id": 1955, "labels": [{"aspect": "Kebersihan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "POSITIF"}]}
+{"review_id": 2189, "labels": [{"aspect": "Pelayanan", "polarity": "POSITIF"}]}
+{"review_id": 979, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Makanan & Minuman", "polarity": "NEGATIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "NEGATIF"}]}
+{"review_id": 603, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Harga", "polarity": "NEGATIF"}]}
+{"review_id": 1944, "labels": [{"aspect": "Kebersihan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Harga", "polarity": "POSITIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "NEGATIF"}]}
+{"review_id": 2301, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Kebersihan", "polarity": "POSITIF"}, {"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Harga", "polarity": "POSITIF"}, {"aspect": "Makanan & Minuman", "polarity": "POSITIF"}]}
+{"review_id": 2123, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}]}
+{"review_id": 2082, "labels": [{"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Makanan & Minuman", "polarity": "NEGATIF"}]}
+{"review_id": 2243, "labels": [{"aspect": "Pelayanan", "polarity": "NEGATIF"}]}
+{"review_id": 529, "labels": [{"aspect": "Kamar & Fasilitas", "polarity": "NETRAL"}]}
+{"review_id": 1744, "labels": [{"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}]}
+{"review_id": 1501, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Harga", "polarity": "NEGATIF"}]}
+{"review_id": 399, "labels": [{"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "NEGATIF"}]}
+{"review_id": 395, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}]}
+{"review_id": 1697, "labels": [{"aspect": "Pelayanan", "polarity": "NEGATIF"}]}
+{"review_id": 2589, "labels": [{"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}]}
+{"review_id": 1519, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Kebersihan", "polarity": "POSITIF"}, {"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Makanan & Minuman", "polarity": "POSITIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "POSITIF"}]}
+{"review_id": 266, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}]}
+{"review_id": 2566, "labels": [{"aspect": "Kebersihan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Harga", "polarity": "POSITIF"}, {"aspect": "Makanan & Minuman", "polarity": "POSITIF"}]}
+{"review_id": 2318, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Harga", "polarity": "POSITIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "NEGATIF"}]}
+{"review_id": 751, "labels": [{"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}]}
+{"review_id": 161, "labels": [{"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}]}
+{"review_id": 733, "labels": [{"aspect": "Pelayanan", "polarity": "NEGATIF"}]}
+{"review_id": 967, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Harga", "polarity": "NEGATIF"}]}
+{"review_id": 2170, "labels": [{"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "POSITIF"}]}
+{"review_id": 2047, "labels": [{"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "NEGATIF"}]}
+{"review_id": 41, "labels": [{"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Harga", "polarity": "NEGATIF"}]}
+{"review_id": 1536, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "NEGATIF"}]}
+{"review_id": 1008, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}]}
+{"review_id": 1924, "labels": [{"aspect": "Kebersihan", "polarity": "POSITIF"}, {"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Harga", "polarity": "POSITIF"}]}
+{"review_id": 1, "labels": [{"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Harga", "polarity": "NEGATIF"}]}
+{"review_id": 1677, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Harga", "polarity": "POSITIF"}, {"aspect": "Makanan & Minuman", "polarity": "NEGATIF"}]}
+{"review_id": 1728, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Makanan & Minuman", "polarity": "NEGATIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "NEGATIF"}]}
+{"review_id": 505, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Kebersihan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "NEGATIF"}]}
+{"review_id": 1154, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}]}
+{"review_id": 2133, "labels": [{"aspect": "Pelayanan", "polarity": "NEGATIF"}]}
+{"review_id": 2820, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Harga", "polarity": "NEGATIF"}]}
+{"review_id": 2453, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Harga", "polarity": "NEGATIF"}]}
+{"review_id": 2005, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Harga", "polarity": "NEGATIF"}]}
+{"review_id": 916, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Kebersihan", "polarity": "POSITIF"}, {"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Makanan & Minuman", "polarity": "POSITIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "POSITIF"}]}
+{"review_id": 347, "labels": [{"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Makanan & Minuman", "polarity": "POSITIF"}]}
+{"review_id": 1587, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Kebersihan", "polarity": "POSITIF"}, {"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Harga", "polarity": "POSITIF"}, {"aspect": "Makanan & Minuman", "polarity": "POSITIF"}]}
+{"review_id": 549, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Makanan & Minuman", "polarity": "POSITIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "POSITIF"}]}
+{"review_id": 1571, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}]}
+{"review_id": 2612, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Harga", "polarity": "NEGATIF"}, {"aspect": "Makanan & Minuman", "polarity": "NEGATIF"}]}
+{"review_id": 8, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Kebersihan", "polarity": "POSITIF"}, {"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Harga", "polarity": "POSITIF"}, {"aspect": "Makanan & Minuman", "polarity": "POSITIF"}]}
+{"review_id": 2719, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Kebersihan", "polarity": "POSITIF"}, {"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Makanan & Minuman", "polarity": "POSITIF"}]}
+{"review_id": 497, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Harga", "polarity": "NEGATIF"}]}
+{"review_id": 1384, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Harga", "polarity": "POSITIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "NEGATIF"}]}
+{"review_id": 2617, "labels": [{"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "POSITIF"}]}
+{"review_id": 2996, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Makanan & Minuman", "polarity": "POSITIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "POSITIF"}]}
+{"review_id": 2704, "labels": [{"aspect": "Kebersihan", "polarity": "POSITIF"}, {"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Makanan & Minuman", "polarity": "POSITIF"}]}
+{"review_id": 2041, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}]}
+{"review_id": 2483, "labels": [{"aspect": "Pelayanan", "polarity": "NEGATIF"}]}
+{"review_id": 2638, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}]}
+{"review_id": 366, "labels": [{"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}]}
+{"review_id": 22, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Harga", "polarity": "POSITIF"}, {"aspect": "Makanan & Minuman", "polarity": "POSITIF"}]}
+{"review_id": 1777, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Kebersihan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Harga", "polarity": "POSITIF"}, {"aspect": "Makanan & Minuman", "polarity": "POSITIF"}]}
+{"review_id": 802, "labels": [{"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Harga", "polarity": "NEGATIF"}]}
+{"review_id": 1671, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "NEGATIF"}]}
+{"review_id": 1475, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}]}
+{"review_id": 2500, "labels": [{"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}]}
+{"review_id": 1170, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Harga", "polarity": "NEGATIF"}]}
+{"review_id": 1179, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Harga", "polarity": "POSITIF"}]}
+{"review_id": 189, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Harga", "polarity": "NEGATIF"}]}
+{"review_id": 1919, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Kebersihan", "polarity": "POSITIF"}, {"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}]}
+{"review_id": 2912, "labels": [{"aspect": "Kebersihan", "polarity": "POSITIF"}, {"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "NEGATIF"}]}
+{"review_id": 2717, "labels": [{"aspect": "Lokasi", "polarity": "NEGATIF"}, {"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}]}
+{"review_id": 2609, "labels": [{"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Harga", "polarity": "POSITIF"}]}
+{"review_id": 477, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Makanan & Minuman", "polarity": "POSITIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "POSITIF"}]}
+{"review_id": 364, "labels": [{"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "NEGATIF"}]}
+{"review_id": 124, "labels": [{"aspect": "Lokasi", "polarity": "NEGATIF"}, {"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Harga", "polarity": "NEGATIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "NEGATIF"}]}
+{"review_id": 276, "labels": [{"aspect": "Pelayanan", "polarity": "NEGATIF"}]}
+{"review_id": 1540, "labels": []}
+{"review_id": 1595, "labels": [{"aspect": "Kebersihan", "polarity": "POSITIF"}, {"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Makanan & Minuman", "polarity": "NEGATIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "NEGATIF"}]}
+{"review_id": 430, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}]}
+{"review_id": 2371, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Harga", "polarity": "NEGATIF"}]}
+{"review_id": 2599, "labels": [{"aspect": "Pelayanan", "polarity": "POSITIF"}]}
+{"review_id": 1237, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Harga", "polarity": "NEGATIF"}]}
+{"review_id": 1874, "labels": [{"aspect": "Kebersihan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Harga", "polarity": "POSITIF"}, {"aspect": "Makanan & Minuman", "polarity": "POSITIF"}]}
+{"review_id": 1343, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "NEGATIF"}]}
+{"review_id": 1875, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Kebersihan", "polarity": "POSITIF"}, {"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Makanan & Minuman", "polarity": "POSITIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "POSITIF"}]}
+{"review_id": 825, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}]}
+{"review_id": 1715, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Harga", "polarity": "NEGATIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "NEGATIF"}]}
+{"review_id": 2824, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}]}
+{"review_id": 776, "labels": [{"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Harga", "polarity": "NEGATIF"}]}
+{"review_id": 2938, "labels": [{"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}]}
+{"review_id": 2645, "labels": [{"aspect": "Fasilitas Pendukung", "polarity": "NEGATIF"}]}
+{"review_id": 434, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Makanan & Minuman", "polarity": "POSITIF"}]}
+{"review_id": 1460, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "NEGATIF"}]}
+{"review_id": 2043, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Kebersihan", "polarity": "POSITIF"}, {"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Harga", "polarity": "POSITIF"}]}
+{"review_id": 1226, "labels": [{"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "NEGATIF"}]}
+{"review_id": 1561, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "NEGATIF"}]}
+{"review_id": 2076, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}]}
+{"review_id": 2320, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}]}
+{"review_id": 2347, "labels": [{"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "NEGATIF"}]}
+{"review_id": 2274, "labels": [{"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}]}
+{"review_id": 1825, "labels": [{"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}]}
+{"review_id": 650, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "NEGATIF"}]}
+{"review_id": 201, "labels": [{"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Makanan & Minuman", "polarity": "POSITIF"}]}
+{"review_id": 828, "labels": [{"aspect": "Pelayanan", "polarity": "NEGATIF"}]}
+{"review_id": 1247, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Makanan & Minuman", "polarity": "NEGATIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "NEGATIF"}]}
+{"review_id": 986, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Harga", "polarity": "POSITIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "NEGATIF"}]}
+{"review_id": 2872, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Harga", "polarity": "POSITIF"}]}
+{"review_id": 714, "labels": [{"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Makanan & Minuman", "polarity": "POSITIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "POSITIF"}]}
+{"review_id": 149, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}]}
+{"review_id": 1014, "labels": [{"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Harga", "polarity": "NEGATIF"}, {"aspect": "Makanan & Minuman", "polarity": "NEGATIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "NEGATIF"}]}
+{"review_id": 2148, "labels": [{"aspect": "Kebersihan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Makanan & Minuman", "polarity": "NEGATIF"}]}
+{"review_id": 2781, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Makanan & Minuman", "polarity": "POSITIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "NEGATIF"}]}
+{"review_id": 1793, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "NEGATIF"}]}
+{"review_id": 2157, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "NEGATIF"}]}
+{"review_id": 2997, "labels": [{"aspect": "Lokasi", "polarity": "NEGATIF"}, {"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Harga", "polarity": "NEGATIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "NEGATIF"}]}
+{"review_id": 831, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Kebersihan", "polarity": "POSITIF"}, {"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Harga", "polarity": "POSITIF"}]}
+{"review_id": 2744, "labels": [{"aspect": "Pelayanan", "polarity": "NEGATIF"}]}
+{"review_id": 1469, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}]}
+{"review_id": 2512, "labels": [{"aspect": "Kebersihan", "polarity": "POSITIF"}, {"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Harga", "polarity": "POSITIF"}, {"aspect": "Makanan & Minuman", "polarity": "POSITIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "POSITIF"}]}
+{"review_id": 2960, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Harga", "polarity": "NEGATIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "NEGATIF"}]}
+{"review_id": 2640, "labels": [{"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Makanan & Minuman", "polarity": "POSITIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "POSITIF"}]}
+{"review_id": 1709, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}]}
+{"review_id": 535, "labels": [{"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "NEGATIF"}]}
+{"review_id": 2526, "labels": [{"aspect": "Pelayanan", "polarity": "NEGATIF"}]}
+{"review_id": 1949, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "NEGATIF"}]}
+{"review_id": 218, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Harga", "polarity": "NEGATIF"}, {"aspect": "Makanan & Minuman", "polarity": "NEGATIF"}]}
+{"review_id": 2048, "labels": [{"aspect": "Harga", "polarity": "POSITIF"}]}
+{"review_id": 2146, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}]}
+{"review_id": 2791, "labels": [{"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "NEGATIF"}]}
+{"review_id": 827, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "NEGATIF"}]}
+{"review_id": 2118, "labels": [{"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Makanan & Minuman", "polarity": "NEGATIF"}]}
+{"review_id": 646, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "POSITIF"}]}
+{"review_id": 1108, "labels": [{"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Makanan & Minuman", "polarity": "POSITIF"}]}
+{"review_id": 1148, "labels": [{"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "NEGATIF"}]}
+{"review_id": 509, "labels": [{"aspect": "Pelayanan", "polarity": "NEGATIF"}]}
+{"review_id": 1128, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "NEGATIF"}]}
+{"review_id": 2027, "labels": [{"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Makanan & Minuman", "polarity": "POSITIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "POSITIF"}]}
+{"review_id": 1453, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Kebersihan", "polarity": "POSITIF"}, {"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Harga", "polarity": "POSITIF"}, {"aspect": "Makanan & Minuman", "polarity": "POSITIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "POSITIF"}]}
+{"review_id": 2694, "labels": [{"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}]}
+{"review_id": 2676, "labels": [{"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Makanan & Minuman", "polarity": "NEGATIF"}]}
+{"review_id": 335, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "POSITIF"}]}
+{"review_id": 2850, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Makanan & Minuman", "polarity": "POSITIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "POSITIF"}]}
+{"review_id": 2669, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "NEGATIF"}]}
+{"review_id": 888, "labels": [{"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}]}
+{"review_id": 2434, "labels": [{"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "NEGATIF"}]}
+{"review_id": 710, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}]}
+{"review_id": 2084, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Harga", "polarity": "NEGATIF"}]}
+{"review_id": 120, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Kebersihan", "polarity": "POSITIF"}, {"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Makanan & Minuman", "polarity": "POSITIF"}]}
+{"review_id": 215, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Makanan & Minuman", "polarity": "NEGATIF"}]}
+{"review_id": 2207, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}]}
+{"review_id": 594, "labels": [{"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Makanan & Minuman", "polarity": "POSITIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "POSITIF"}]}
+{"review_id": 1853, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Harga", "polarity": "POSITIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "NEGATIF"}]}
+{"review_id": 1126, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Harga", "polarity": "NEGATIF"}]}
+{"review_id": 1993, "labels": [{"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}]}
+{"review_id": 2007, "labels": [{"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "NEGATIF"}]}
+{"review_id": 2593, "labels": [{"aspect": "Kebersihan", "polarity": "POSITIF"}, {"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Makanan & Minuman", "polarity": "POSITIF"}]}
+{"review_id": 898, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}]}
+{"review_id": 1751, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}]}
+{"review_id": 237, "labels": [{"aspect": "Kebersihan", "polarity": "POSITIF"}, {"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "POSITIF"}]}
+{"review_id": 1166, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}]}
+{"review_id": 388, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Kebersihan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}]}
+{"review_id": 1712, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}]}
+{"review_id": 1462, "labels": [{"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}]}
+{"review_id": 2306, "labels": [{"aspect": "Makanan & Minuman", "polarity": "POSITIF"}]}
+{"review_id": 105, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "NEGATIF"}]}
+{"review_id": 2528, "labels": [{"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Makanan & Minuman", "polarity": "NEGATIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "NEGATIF"}]}
+{"review_id": 826, "labels": [{"aspect": "Harga", "polarity": "POSITIF"}]}
+{"review_id": 1942, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Harga", "polarity": "NEGATIF"}]}
+{"review_id": 1067, "labels": [{"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}]}
+{"review_id": 2625, "labels": [{"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Harga", "polarity": "NEGATIF"}]}
+{"review_id": 1114, "labels": [{"aspect": "Pelayanan", "polarity": "NEGATIF"}]}
+{"review_id": 320, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}]}
+{"review_id": 1167, "labels": [{"aspect": "Pelayanan", "polarity": "NEGATIF"}]}
+{"review_id": 2865, "labels": [{"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Harga", "polarity": "NEGATIF"}]}
+{"review_id": 2928, "labels": [{"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Harga", "polarity": "NEGATIF"}, {"aspect": "Makanan & Minuman", "polarity": "NEGATIF"}]}
+{"review_id": 1055, "labels": [{"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Harga", "polarity": "NEGATIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "NEGATIF"}]}
+{"review_id": 2394, "labels": [{"aspect": "Pelayanan", "polarity": "POSITIF"}]}
+{"review_id": 669, "labels": [{"aspect": "Kebersihan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}]}
+{"review_id": 485, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Harga", "polarity": "NEGATIF"}]}
+{"review_id": 2757, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Harga", "polarity": "NEGATIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "NEGATIF"}]}
+{"review_id": 1063, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}]}
+{"review_id": 2880, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Harga", "polarity": "POSITIF"}]}
+{"review_id": 2191, "labels": [{"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Harga", "polarity": "POSITIF"}]}
+{"review_id": 504, "labels": [{"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Harga", "polarity": "POSITIF"}]}
+{"review_id": 2527, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}]}
+{"review_id": 2378, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}]}
+{"review_id": 19, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Kebersihan", "polarity": "POSITIF"}, {"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Harga", "polarity": "POSITIF"}, {"aspect": "Makanan & Minuman", "polarity": "POSITIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "POSITIF"}]}
+{"review_id": 2670, "labels": [{"aspect": "Pelayanan", "polarity": "NEGATIF"}]}
+{"review_id": 2530, "labels": [{"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Harga", "polarity": "NEGATIF"}]}
+{"review_id": 843, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Kebersihan", "polarity": "POSITIF"}, {"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Harga", "polarity": "POSITIF"}, {"aspect": "Makanan & Minuman", "polarity": "POSITIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "POSITIF"}]}
+{"review_id": 1885, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}]}
+{"review_id": 1437, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Kebersihan", "polarity": "POSITIF"}, {"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}]}
+{"review_id": 685, "labels": [{"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Makanan & Minuman", "polarity": "NEGATIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "NEGATIF"}]}
+{"review_id": 1290, "labels": [{"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Makanan & Minuman", "polarity": "POSITIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "POSITIF"}]}
+{"review_id": 2894, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}]}
+{"review_id": 2194, "labels": [{"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Makanan & Minuman", "polarity": "POSITIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "POSITIF"}]}
+{"review_id": 2057, "labels": [{"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Makanan & Minuman", "polarity": "NEGATIF"}]}
+{"review_id": 2268, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Harga", "polarity": "POSITIF"}]}
+{"review_id": 600, "labels": [{"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Makanan & Minuman", "polarity": "POSITIF"}]}
+{"review_id": 1806, "labels": [{"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Harga", "polarity": "NEGATIF"}]}
+{"review_id": 65, "labels": [{"aspect": "Pelayanan", "polarity": "NEGATIF"}]}
+{"review_id": 1935, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}]}
+{"review_id": 1585, "labels": [{"aspect": "Kebersihan", "polarity": "POSITIF"}, {"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Harga", "polarity": "POSITIF"}, {"aspect": "Makanan & Minuman", "polarity": "NEGATIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "POSITIF"}]}
+{"review_id": 724, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Harga", "polarity": "NEGATIF"}]}
+{"review_id": 678, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Makanan & Minuman", "polarity": "NEGATIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "NEGATIF"}]}
+{"review_id": 288, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}]}
+{"review_id": 70, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Harga", "polarity": "NEGATIF"}, {"aspect": "Makanan & Minuman", "polarity": "NEGATIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "NEGATIF"}]}
+{"review_id": 72, "labels": [{"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Harga", "polarity": "NEGATIF"}]}
+{"review_id": 1314, "labels": [{"aspect": "Lokasi", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}]}
+{"review_id": 1897, "labels": [{"aspect": "Kamar & Fasilitas", "polarity": "NETRAL"}]}
+{"review_id": 273, "labels": [{"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Makanan & Minuman", "polarity": "POSITIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "POSITIF"}]}
+{"review_id": 1740, "labels": [{"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Makanan & Minuman", "polarity": "POSITIF"}]}
+{"review_id": 2710, "labels": [{"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Makanan & Minuman", "polarity": "POSITIF"}]}
+{"review_id": 2982, "labels": [{"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Harga", "polarity": "POSITIF"}]}
+{"review_id": 2131, "labels": [{"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "NEGATIF"}]}
+{"review_id": 338, "labels": [{"aspect": "Kebersihan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}]}
+{"review_id": 2323, "labels": [{"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Makanan & Minuman", "polarity": "POSITIF"}]}
+{"review_id": 431, "labels": [{"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "NEGATIF"}]}
+{"review_id": 692, "labels": [{"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Harga", "polarity": "NEGATIF"}, {"aspect": "Makanan & Minuman", "polarity": "NEGATIF"}]}
+{"review_id": 775, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Harga", "polarity": "NEGATIF"}, {"aspect": "Makanan & Minuman", "polarity": "NEGATIF"}]}
+{"review_id": 839, "labels": [{"aspect": "Pelayanan", "polarity": "NEGATIF"}]}
+{"review_id": 2335, "labels": [{"aspect": "Kebersihan", "polarity": "POSITIF"}, {"aspect": "Pelayanan", "polarity": "POSITIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "POSITIF"}, {"aspect": "Harga", "polarity": "POSITIF"}]}
+{"review_id": 56, "labels": [{"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Fasilitas Pendukung", "polarity": "NEGATIF"}]}
+{"review_id": 365, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Harga", "polarity": "NEGATIF"}]}
+{"review_id": 2038, "labels": [{"aspect": "Kebersihan", "polarity": "NEGATIF"}, {"aspect": "Pelayanan", "polarity": "NEGATIF"}, {"aspect": "Kamar & Fasilitas", "polarity": "NEGATIF"}, {"aspect": "Harga", "polarity": "NEGATIF"}]}

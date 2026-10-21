@@ -155,7 +155,10 @@ def main():
     ap.add_argument("--lr", type=float, default=2e-4)
     ap.add_argument("--load_4bit", action="store_true", help="QLoRA 4-bit (butuh GPU + bitsandbytes)")
     ap.add_argument("--pred_out", default="pred_llm_lora.jsonl")
+    ap.add_argument("--seed", type=int, default=42)
     args = ap.parse_args()
+    import random
+    random.seed(args.seed); torch.manual_seed(args.seed); torch.cuda.manual_seed_all(args.seed)
 
     tok = AutoTokenizer.from_pretrained(args.model)
     if tok.pad_token is None:

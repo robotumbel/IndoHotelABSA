@@ -1,0 +1,15 @@
+
+# Mendeley Data files (review text): never commit
+train_silver.jsonl
+val_gold.jsonl
+test_gold.jsonl
+gold_final.jsonl
+dataset_merged.jsonl
+annotator_*_blind.jsonl
+annotator_*_verified.jsonl
+annotation_prefilled*.jsonl
+adjudication_record.jsonl
+excluded_empty_labels.jsonl
+revision_R1/data/
+__pycache__/
+*.pt

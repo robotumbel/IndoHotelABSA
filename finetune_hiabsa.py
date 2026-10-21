@@ -97,15 +97,22 @@ class ABSADataset(Dataset):
 
 # ─────────────────────────────────────────────────────────────
 class HIABSA(nn.Module):
-    def __init__(self, model_name=MODEL_NAME, use_aqa=True, use_lgf=True):
+    def __init__(self, model_name=MODEL_NAME, use_aqa=True, use_lgf=True, pool=None, fusion="gate"):
         super().__init__()
+        # pool: aqa (default) | cls | mean | attn1 (one shared learned query) | frozenq (random, frozen aspect queries)
+        # fusion: gate (default, Eq. 5-6) | add (no gate, g=1)
+        self.pool = pool or ("aqa" if use_aqa else "cls")
+        self.fusion = fusion
         self.encoder = AutoModel.from_pretrained(model_name)
         d = self.encoder.config.hidden_size
         self.d = d
         self.use_aqa, self.use_lgf = use_aqa, use_lgf
 
         # Aspect-Query Attention (Persamaan 3-4)
-        self.aspect_q = nn.Parameter(torch.randn(A, d) * 0.02)   # 7 query aspek
+        self.aspect_q = nn.Parameter(torch.randn(A, d) * 0.02,   # 7 query aspek
+                                     requires_grad=(self.pool != "frozenq"))
+        if self.pool == "attn1":   # dibuat hanya bila dipakai, agar inisialisasi varian lain tidak berubah
+            self.shared_q = nn.Parameter(torch.randn(1, d) * 0.02)
         self.WQ = nn.Linear(d, d, bias=False)
         self.WK = nn.Linear(d, d, bias=False)
         self.WV = nn.Linear(d, d, bias=False)
@@ -124,8 +131,8 @@ class HIABSA(nn.Module):
         H = out.last_hidden_state                     # (B, L, d)
         B = H.size(0)
 
-        if self.use_aqa:
-            q = self.WQ(self.aspect_q)                # (A, d)
+        if self.pool in ("aqa", "frozenq", "attn1"):
+            q = self.WQ(self.aspect_q if self.pool != "attn1" else self.shared_q)   # (A|1, d)
             K = self.WK(H)                            # (B, L, d)
             V = self.WV(H)                            # (B, L, d)
             scores = torch.einsum("ad,bld->bal", q, K) / math.sqrt(self.d)   # (B, A, L)
@@ -133,7 +140,12 @@ class HIABSA(nn.Module):
             scores = scores.masked_fill(mask, float("-inf"))
             alpha = torch.softmax(scores, dim=-1)     # (B, A, L)
             self.last_attn = alpha.detach()
-            c = torch.einsum("bal,bld->bad", alpha, V)                        # (B, A, d)
+            c = torch.einsum("bal,bld->bad", alpha, V)                        # (B, A|1, d)
+            if c.size(1) == 1:
+                c = c.expand(B, A, self.d)
+        elif self.pool == "mean":
+            m = attention_mask.unsqueeze(-1).float()                          # (B, L, 1)
+            c = ((H * m).sum(1) / m.sum(1).clamp(min=1)).unsqueeze(1).expand(B, A, self.d)
         else:
             # ablasi: representasi [CLS] bersama untuk semua aspek
             cls = H[:, 0]                             # (B, d)
@@ -142,7 +154,8 @@ class HIABSA(nn.Module):
         c = self.drop(c)
 
         if self.use_lgf:
-            g = torch.sigmoid(self.wg(torch.cat([c, lex], dim=-1)))           # (B, A, 1)
+            g = (torch.sigmoid(self.wg(torch.cat([c, lex], dim=-1))) if self.fusion == "gate"
+                 else torch.ones(c.shape[:2] + (1,), device=c.device))       # (B, A, 1)
             c = c + g * self.Wl(lex)                  # (B, A, d)
 
         # klasifikasi per-aspek
@@ -218,6 +231,10 @@ def main():
     ap.add_argument("--lr", type=float, default=2e-5)
     ap.add_argument("--no_aqa", action="store_true", help="ablasi: matikan Aspect-Query Attention")
     ap.add_argument("--no_lgf", action="store_true", help="ablasi: matikan Lexicon-Gated Fusion")
+    ap.add_argument("--pool", default=None, choices=["aqa", "cls", "mean", "attn1", "frozenq"],
+                    help="revisi R1.7: varian pooling (default: aqa, atau cls bila --no_aqa)")
+    ap.add_argument("--fusion", default="gate", choices=["gate", "add"],
+                    help="revisi R1.7: gate = LGF asli; add = tanpa gerbang")
     ap.add_argument("--pred_out", default="pred_hiabsa.jsonl")
     ap.add_argument("--seed", type=int, default=42)
     args = ap.parse_args()
@@ -231,8 +248,9 @@ def main():
     va = DataLoader(ABSADataset(load_gold(args.val), tok), batch_size=args.batch)
     te = DataLoader(ABSADataset(load_gold(args.test), tok), batch_size=args.batch)
 
-    model = HIABSA(use_aqa=not args.no_aqa, use_lgf=not args.no_lgf).to(DEVICE)
-    variant = "HI-ABSA" + ("" if not args.no_aqa else " -AQA") + ("" if not args.no_lgf else " -LGF")
+    model = HIABSA(use_aqa=not args.no_aqa, use_lgf=not args.no_lgf, pool=args.pool,
+                   fusion=args.fusion).to(DEVICE)
+    variant = (f"HI-ABSA pool={model.pool} fusion={model.fusion}" + ("" if not args.no_lgf else " -LGF"))
     print(f"Device: {DEVICE} | varian: {variant} | train: {len(tr.dataset)}")
     train(model, tr, va, epochs=args.epochs, lr=args.lr)
 

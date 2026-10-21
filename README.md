@@ -1,18 +1,20 @@
 # IndoHotelABSA
 
-Code for the paper **"IndoHotelABSA: An Explainable Aspect-Based Sentiment Analysis
-Framework and Benchmark Dataset for Indonesian Hotel Reviews in Hospitality CRM"**
-(*Natural Language Processing Journal*, 2026).
+Code for the paper **"IndoHotelABSA: An Aspect-Based Sentiment Analysis Benchmark for
+Indonesian Hotel Reviews, with an Audit of LLM-Assisted Annotation"** (*Natural
+Language Processing Journal*, under revision) and the companion data article in
+*Data in Brief*.
 
-IndoHotelABSA is the first large-scale benchmark for aspect-based sentiment analysis
-(ABSA) of **Indonesian hotel reviews** (14,988 reviews, 55 cities, 7 CRM aspects;
-500-review human-verified gold set at Fleiss' κ = 0.894). This repository contains
-the code to reproduce data construction, all baselines, the proposed **HI-ABSA**
-model, the explainable CRM dashboard, and every table/figure in the paper.
+IndoHotelABSA is an aspect-based sentiment analysis (ABSA) resource of **Indonesian
+hotel reviews**: 14,988 reviews of 3,075 hotels in 55 cities; 2,480 LLM-drafted (silver)
+training reviews and 500 human-verified (gold) reviews for seven aspects, plus 100 test
+reviews re-annotated from scratch to audit the LLM-assisted annotation. This repository
+contains the code to reproduce data construction, all systems, and every table and
+figure. **The experiments of the revised article are in [`revision_R1/`](revision_R1/).**
 
-- 📄 Paper: *Natural Language Processing Journal* (DOI to be added on acceptance)
-- 📦 Dataset: **Mendeley Data**, DOI [10.17632/9vhzg5wkf9.1](https://doi.org/10.17632/9vhzg5wkf9.1)
-- 🪪 Code license: MIT · Dataset license: CC BY 4.0
+- 📄 Paper: *Natural Language Processing Journal* (under revision)
+- 📦 Dataset: **Mendeley Data**, version 2, DOI [10.17632/9vhzg5wkf9.2](https://doi.org/10.17632/9vhzg5wkf9.2)
+- 🪪 Code license: MIT · Data: split licence, see `LICENSE_DATA.md`
 
 ---
 
@@ -29,7 +31,7 @@ NVIDIA RTX 4050 (6 GB).
 ## 2. Get the data
 
 Download the corpus from Mendeley Data
-([10.17632/9vhzg5wkf9.1](https://doi.org/10.17632/9vhzg5wkf9.1)) and place the JSONL
+([10.17632/9vhzg5wkf9.2](https://doi.org/10.17632/9vhzg5wkf9.2)) and place the JSONL
 files in the repository root:
 
 ```
@@ -46,9 +48,9 @@ Polarity: POSITIF / NEGATIF / NETRAL. See `docs/annotation_guidelines.md` and `d
 # Encoders (IndoBERT / IndoBERTweet / mBERT / XLM-R)
 python finetune_indobert_absa.py --train train_silver.jsonl --val val_gold.jsonl --test test_gold.jsonl --model indobenchmark/indobert-base-p1 --pred_out pred_indobert.jsonl
 
-# Proposed HI-ABSA (Aspect-Query Attention + Lexicon-Gated Fusion)
+# HI-ABSA (Aspect-Query Attention + Lexicon-Gated Fusion)
 python finetune_hiabsa.py --train train_silver.jsonl --val val_gold.jsonl --test test_gold.jsonl --pred_out pred_hiabsa.jsonl
-#   ablations: add --no_aqa and/or --no_lgf
+#   ablations: --no_aqa, --no_lgf, --pool {aqa,cls,mean,attn1,frozenq}, --fusion {gate,add}
 
 # Generative / LLM baselines
 python finetune_mt5_absa.py  --model google/mt5-small        # seq2seq generative
@@ -82,7 +84,7 @@ scrape_reviews.py  ->  merge_dataset.py  ->  sample_for_annotation.py
 
 | File(s) | Purpose |
 |---|---|
-| `finetune_hiabsa.py` | Proposed **HI-ABSA** (AQA + LGF), with `--no_aqa`/`--no_lgf` ablations |
+| `finetune_hiabsa.py` | **HI-ABSA** (AQA + LGF) and its ablation variants |
 | `finetune_indobert_absa.py` | Encoder baselines (IndoBERT/IndoBERTweet/mBERT/XLM-R) |
 | `finetune_mt5_absa.py`, `finetune_llm_lora.py`, `llm_fewshot_absa.py` | Generative / LLM baselines |
 | `lexicon_baseline.py` | Rule-based lexicon baseline |
@@ -91,6 +93,7 @@ scrape_reviews.py  ->  merge_dataset.py  ->  sample_for_annotation.py
 | `make_*_figure*.py` | Publication figures |
 | `scrape_reviews.py` … `split_dataset.py` | Data-construction pipeline |
 | `docs/` | Annotation guidelines, datasheet |
+| `revision_R1/` | Experiments of the revised article: five-seed benchmark, blind re-annotation audit, ablation, faithfulness, label noise, large encoders, zero-shot LLMs |
 
 ## 6. Citation
 
@@ -98,7 +101,10 @@ See `CITATION.cff`. Please cite both the paper and the dataset (Mendeley DOI abo
 
 ## 7. Ethics
 
-Reviews were collected via the official Google Places API with all personally
-identifying metadata removed at collection; the corpus is released for
-non-commercial research under CC BY 4.0. A large language model was used **only** to
-produce draft (silver) labels; all gold labels are human-verified.
+Reviews were collected via the official Google Places API; reviewer-identifying
+metadata were never requested, and telephone numbers, e-mails, and URLs in review text
+were replaced by placeholders. The annotations and code are released under CC BY 4.0
+and MIT; the review text and hotel names are third-party content redistributed for
+non-commercial research only and are not relicensed (`LICENSE_DATA.md`, 30-day takedown).
+A large language model was used to produce draft (silver) labels; all evaluation labels
+are human-verified, and 100 test reviews were re-annotated without any model output.
