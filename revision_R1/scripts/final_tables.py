@@ -69,7 +69,8 @@ SYSTEMS = [  # label, list of prediction dicts, logits id for gold-aspect, group
 ]
 for tag, lab in [("qwen25_14b_zeroshot", "Qwen2.5-14B zero-shot$^{\\ddagger}$"), ("qwen25_32b_zeroshot", "Qwen2.5-32B zero-shot$^{\\ddagger}$")]:
     p = os.path.join(REV, "preds_qwen_scale", f"{tag}.jsonl")
-    SYSTEMS.append((lab, single(p, "labels_lenient") if os.path.exists(p) and len(S.load(p)) == 400 else None, None, "Generative / LLM"))
+    if os.path.exists(p) and len(S.load(p)) == 400:
+        SYSTEMS.append((lab, single(p, "labels_lenient"), None, "Generative / LLM"))
 SYSTEMS.append(("Gemini silver draft$^{\\dagger}$", single(os.path.join(ROOT, "pred_gemini_fewshot.jsonl")), None, "Generative / LLM"))
 
 

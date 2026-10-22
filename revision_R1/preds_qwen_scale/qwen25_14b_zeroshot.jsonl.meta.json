@@ -1,0 +1,13 @@
+{
+ "model": "unsloth/Qwen2.5-14B-Instruct-bnb-4bit",
+ "revision": "63af63299c76dc5f79e0b0801e11304f95760ec2",
+ "decoding": "greedy",
+ "max_new_tokens": 256,
+ "transformers": "5.16.1",
+ "torch": "2.11.0+cu128",
+ "gpus": [
+  "Tesla T4",
+  "Tesla T4"
+ ],
+ "started_utc": "2026-10-21T22:51:47.338576+00:00"
+}

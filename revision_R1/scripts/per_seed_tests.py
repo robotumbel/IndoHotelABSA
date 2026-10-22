@@ -85,6 +85,7 @@ TRAINED = [("mBERT", "mbert"), ("XLM-RoBERTa", "xlmr"), ("IndoBERTweet", "indobe
 qraw = load(os.path.join(REV, "preds_llm", "qwen25_7b_zeroshot.jsonl"))
 FIXED = {"Lexicon baseline": {r: cells(o["labels"]) for r, o in load(os.path.join(ROOT, "pred_lex_gold.jsonl")).items()},
          "Qwen2.5-7B zero-shot (lenient)": {r: cells(o.get("labels_lenient")) for r, o in qraw.items()},
+         "Qwen2.5-14B zero-shot (lenient)": {r: cells(o.get("labels_lenient")) for r, o in load(os.path.join(REV, "preds_qwen_scale", "qwen25_14b_zeroshot.jsonl")).items()},
          "Gemini draft (silver)": {r: cells(o["labels"]) for r, o in load(os.path.join(ROOT, "pred_gemini_fewshot.jsonl")).items()}}
 pr = lambda sid, s: {r: cells(o["labels"]) for r, o in load(os.path.join(REV, "preds_seeds", f"{sid}_{s}.jsonl")).items()}
 
@@ -107,7 +108,7 @@ for s in SEEDS:
 L = ["# E8 — Review-level paired tests per seed (HI-ABSA vs each system, Joint-F1, test-400)", "",
      f"For each seed, HI-ABSA of that seed is compared with the same-seed run of each trained system (deterministic "
      f"systems are the same in every seed). Paired bootstrap ({B}) and sign-flip permutation ({P}) over whole reviews; "
-     "Holm correction over the 12 comparisons within each seed. Smallest attainable p = 0.0002.", "",
+     "Holm correction over the 13 comparisons within each seed. Smallest attainable p = 0.0002.", "",
      "| HI-ABSA vs | Δ mean | Δ range over seeds | 95% CI (widest) | p range | Holm p range | seeds significant (Holm < .05) |",
      "|---|---:|---|---|---|---|---:|"]
 for n, xs in res.items():
