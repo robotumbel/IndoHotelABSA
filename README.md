@@ -3,7 +3,7 @@
 Code for the paper **"IndoHotelABSA: An Aspect-Based Sentiment Analysis Benchmark for
 Indonesian Hotel Reviews, with an Audit of LLM-Assisted Annotation"** (*Natural
 Language Processing Journal*, under revision) and the companion data article in
-*Data in Brief*.
+*Data in Brief* 69 (2026) 113209, doi:[10.1016/j.dib.2026.113209](https://doi.org/10.1016/j.dib.2026.113209).
 
 IndoHotelABSA is an aspect-based sentiment analysis (ABSA) resource of **Indonesian
 hotel reviews**: 14,988 reviews of 3,075 hotels in 55 cities; 2,480 LLM-drafted (silver)
