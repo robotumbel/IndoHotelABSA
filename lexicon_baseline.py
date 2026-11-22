@@ -1,5 +1,9 @@
 # -*- coding: utf-8 -*-
 """
+DEPRECATED (lexicon v1). Kept unchanged because all reported results use it. Known defects:
+"dingin" and the negator "tidak" are listed as negative sentiment words, and there is no
+negation handling. For new work use revision_R2/scripts/lexicon_v2.py.
+
 lexicon_baseline.py — Baseline ABSA berbasis kata-kunci + leksikon sentimen.
 Batas bawah (lower bound) tanpa pelatihan. Output JSONL utk evaluate_absa.py.
 Pemakaian: python lexicon_baseline.py --test test.jsonl --pred_out pred_lexicon.jsonl

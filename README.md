@@ -84,10 +84,10 @@ scrape_reviews.py  ->  merge_dataset.py  ->  sample_for_annotation.py
 
 | File(s) | Purpose |
 |---|---|
-| `finetune_hiabsa.py` | **HI-ABSA** (AQA + LGF) and its ablation variants |
+| `finetune_hiabsa.py` | **HI-ABSA** (AQA + LGF) and its ablation variants. LGF is deprecated (review-level signal, defective v1 lexicon; it adds no accuracy) |
 | `finetune_indobert_absa.py` | Encoder baselines (IndoBERT/IndoBERTweet/mBERT/XLM-R) |
 | `finetune_mt5_absa.py`, `finetune_llm_lora.py`, `llm_fewshot_absa.py` | Generative / LLM baselines |
-| `lexicon_baseline.py` | Rule-based lexicon baseline |
+| `lexicon_baseline.py` | Rule-based lexicon baseline, lexicon v1 (deprecated; corrected v2 in `revision_R2/scripts/lexicon_v2.py`) |
 | `evaluate_absa.py`, `bootstrap_significance.py`, `run_seeds.py` | Metrics, significance, multi-seed |
 | `hoasa_sota.py` | Cross-benchmark validation on HoASA (IndoNLU) |
 | `make_*_figure*.py` | Publication figures |
